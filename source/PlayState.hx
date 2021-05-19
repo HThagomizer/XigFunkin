@@ -708,6 +708,10 @@ class PlayState extends MusicBeatState
 				dad.x += 160;
 				dad.y += 110;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
+			case 'bones':
+				dad.x += 160;
+				dad.y += 110;
+				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 		}
 
 		boyfriend = new Boyfriend(770, 450, SONG.player1);
