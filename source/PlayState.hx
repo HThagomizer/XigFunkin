@@ -604,6 +604,67 @@ class PlayState extends MusicBeatState
 
 			// fastCar = new FlxSprite(-300, 160).loadGraphic(Paths.image('weekX_bg/sky/fastPlaneLol'));
 		}
+		else if (SONG.song.toLowerCase() == 'marrow')
+		{
+			defaultCamZoom = 0.9;
+			curStage = 'raveyard';
+			var raveyard_bg:FlxSprite = new FlxSprite(-600, -500).loadGraphic(Paths.image('week2_bg/sky'));
+			raveyard_bg.antialiasing = true;
+			raveyard_bg.scrollFactor.set(0.1, 0.1);
+			raveyard_bg.active = false;
+			add(raveyard_bg);
+
+			var raveyard_shrubs:FlxSprite = new FlxSprite(-500, 200).loadGraphic(Paths.image('week2_bg/shrubs'));
+			raveyard_shrubs.setGraphicSize(Std.int(raveyard_shrubs.width * 0.9));
+			raveyard_shrubs.updateHitbox();
+			raveyard_shrubs.antialiasing = true;
+			raveyard_shrubs.scrollFactor.set(0.8, 0.8);
+			raveyard_shrubs.active = false;
+			add(raveyard_shrubs);
+
+			var raveyard_belltower:FlxSprite = new FlxSprite(-500, 200).loadGraphic(Paths.image('week2_bg/belltower'));
+			raveyard_belltower.updateHitbox();
+			raveyard_belltower.antialiasing = true;
+			raveyard_belltower.scrollFactor.set(0.8, 0.8);
+			raveyard_belltower.active = false;
+			add(raveyard_belltower);
+
+			var raveyard_ground:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week2_bg/ground'));
+			raveyard_ground.setGraphicSize(Std.int(raveyard_ground.width * 1.1));
+			raveyard_ground.updateHitbox();
+			raveyard_ground.antialiasing = true;
+			raveyard_ground.scrollFactor.set(0.9, 0.9);
+			raveyard_ground.active = false;
+			add(raveyard_ground);
+
+			var raveyard_gravesbacker:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week2_bg/gravesbacker'));
+			raveyard_gravesbacker.updateHitbox();
+			raveyard_gravesbacker.antialiasing = true;
+			raveyard_gravesbacker.scrollFactor.set(0.9, 0.9);
+			raveyard_gravesbacker.active = false;
+			add(raveyard_gravesbacker);
+
+			var raveyard_gravesback:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week2_bg/gravesback'));
+			raveyard_gravesback.updateHitbox();
+			raveyard_gravesback.antialiasing = true;
+			raveyard_gravesback.scrollFactor.set(0.9, 0.9);
+			raveyard_gravesback.active = false;
+			add(raveyard_gravesback);
+
+			var raveyard_graves:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week2_bg/graves'));
+			raveyard_graves.updateHitbox();
+			raveyard_graves.antialiasing = true;
+			raveyard_graves.scrollFactor.set(0.9, 0.9);
+			raveyard_graves.active = false;
+			add(raveyard_graves);
+
+			var gravesfront:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week2_bg/gravesfront'));
+			gravesfront.updateHitbox();
+			gravesfront.antialiasing = true;
+			gravesfront.scrollFactor.set(0.9, 0.9);
+			gravesfront.active = false;
+			add(gravesfront);
+		}
 		else
 		{
 			defaultCamZoom = 0.9;
@@ -648,6 +709,8 @@ class PlayState extends MusicBeatState
 				gfVersion = 'gf-ufo';
 			case 'sky':
 				gfVersion = 'gf-ufo-flying';
+			case 'raveyard':
+				gfVersion = 'gf-tombstone';
 		}
 
 		if (curStage == 'limo')
@@ -764,6 +827,8 @@ class PlayState extends MusicBeatState
 		// Shitty layering but whatev it works LOL
 		if (curStage == 'limo')
 			add(limo);
+		if (curStage == 'raveyard')
+			add(gravesfront);
 
 		add(dad);
 		add(boyfriend);
