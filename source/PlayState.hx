@@ -614,7 +614,7 @@ class PlayState extends MusicBeatState
 			raveyard_bg.active = false;
 			add(raveyard_bg);
 
-			var raveyard_shrubs:FlxSprite = new FlxSprite(-500, 200).loadGraphic(Paths.image('week2_bg/shrubs'));
+			var raveyard_shrubs:FlxSprite = new FlxSprite(-500, 100).loadGraphic(Paths.image('week2_bg/shrubs'));
 			raveyard_shrubs.setGraphicSize(Std.int(raveyard_shrubs.width * 0.9));
 			raveyard_shrubs.updateHitbox();
 			raveyard_shrubs.antialiasing = true;
@@ -622,14 +622,14 @@ class PlayState extends MusicBeatState
 			raveyard_shrubs.active = false;
 			add(raveyard_shrubs);
 
-			var raveyard_belltower:FlxSprite = new FlxSprite(-500, 200).loadGraphic(Paths.image('week2_bg/belltower'));
+			var raveyard_belltower:FlxSprite = new FlxSprite(500, -300).loadGraphic(Paths.image('week2_bg/belltower'));
 			raveyard_belltower.updateHitbox();
 			raveyard_belltower.antialiasing = true;
 			raveyard_belltower.scrollFactor.set(0.8, 0.8);
 			raveyard_belltower.active = false;
 			add(raveyard_belltower);
 
-			var raveyard_ground:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week2_bg/ground'));
+			var raveyard_ground:FlxSprite = new FlxSprite(-900, 400).loadGraphic(Paths.image('week2_bg/ground'));
 			raveyard_ground.setGraphicSize(Std.int(raveyard_ground.width * 1.1));
 			raveyard_ground.updateHitbox();
 			raveyard_ground.antialiasing = true;
@@ -637,21 +637,21 @@ class PlayState extends MusicBeatState
 			raveyard_ground.active = false;
 			add(raveyard_ground);
 
-			var raveyard_gravesbacker:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week2_bg/gravesbacker'));
+			var raveyard_gravesbacker:FlxSprite = new FlxSprite(-650, 300).loadGraphic(Paths.image('week2_bg/gravesbacker'));
 			raveyard_gravesbacker.updateHitbox();
 			raveyard_gravesbacker.antialiasing = true;
 			raveyard_gravesbacker.scrollFactor.set(0.9, 0.9);
 			raveyard_gravesbacker.active = false;
 			add(raveyard_gravesbacker);
 
-			var raveyard_gravesback:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week2_bg/gravesback'));
+			var raveyard_gravesback:FlxSprite = new FlxSprite(-650, 450).loadGraphic(Paths.image('week2_bg/gravesback'));
 			raveyard_gravesback.updateHitbox();
 			raveyard_gravesback.antialiasing = true;
 			raveyard_gravesback.scrollFactor.set(0.9, 0.9);
 			raveyard_gravesback.active = false;
 			add(raveyard_gravesback);
 
-			var raveyard_graves:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week2_bg/graves'));
+			var raveyard_graves:FlxSprite = new FlxSprite(-400, 450).loadGraphic(Paths.image('week2_bg/graves'));
 			raveyard_graves.updateHitbox();
 			raveyard_graves.antialiasing = true;
 			raveyard_graves.scrollFactor.set(0.9, 0.9);
@@ -663,7 +663,6 @@ class PlayState extends MusicBeatState
 			gravesfront.antialiasing = true;
 			gravesfront.scrollFactor.set(0.9, 0.9);
 			gravesfront.active = false;
-			add(gravesfront);
 		}
 		else
 		{
@@ -820,6 +819,10 @@ class PlayState extends MusicBeatState
 				dad.x -= 100;
 				gf.x -= 500;
 				gf.y -= 100;
+			case 'raveyard':
+				dad.y += 150;
+				gf.y += 100;
+				boyfriend.y += 100;
 		}
 
 		add(gf);
@@ -827,8 +830,6 @@ class PlayState extends MusicBeatState
 		// Shitty layering but whatev it works LOL
 		if (curStage == 'limo')
 			add(limo);
-		if (curStage == 'raveyard')
-			add(gravesfront);
 
 		add(dad);
 		add(boyfriend);

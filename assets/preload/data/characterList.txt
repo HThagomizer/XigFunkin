@@ -19,3 +19,4 @@ alien
 alien-alt
 alien-pissed
 alien-psychic
+bones
