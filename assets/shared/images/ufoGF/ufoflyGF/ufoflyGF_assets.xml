@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ufoflyGF_assets.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Cheer instance 10000" x="0" y="0" width="1365" height="1214"/>
+	<SubTexture name="GF Cheer instance 10001" x="0" y="0" width="1365" height="1214"/>
+	<SubTexture name="GF Cheer instance 10002" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10003" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10004" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10005" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10006" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10007" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10008" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10009" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10010" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10011" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10012" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10013" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10014" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10015" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10016" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10017" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10018" x="1365" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10019" x="2730" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Cheer instance 10020" x="2730" y="0" width="1365" height="1211" frameX="0" frameY="-3" frameWidth="1365" frameHeight="1214"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10000" x="4095" y="0" width="1568" height="1074" frameX="0" frameY="-13" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10001" x="5663" y="0" width="1569" height="1074" frameX="0" frameY="-13" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10002" x="0" y="1214" width="1569" height="1058" frameX="0" frameY="-29" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10003" x="1569" y="1214" width="1569" height="1058" frameX="0" frameY="-29" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10004" x="3138" y="1214" width="1569" height="1045" frameX="0" frameY="-42" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10005" x="4707" y="1214" width="1569" height="1045" frameX="0" frameY="-42" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10006" x="6276" y="1214" width="1569" height="1065" frameX="0" frameY="-22" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10007" x="0" y="2279" width="1569" height="1086" frameX="0" frameY="-1" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10008" x="0" y="2279" width="1569" height="1086" frameX="0" frameY="-1" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10009" x="0" y="2279" width="1569" height="1086" frameX="0" frameY="-1" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10010" x="1569" y="2279" width="1569" height="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10011" x="1569" y="2279" width="1569" height="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10012" x="1569" y="2279" width="1569" height="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10013" x="3138" y="2279" width="1569" height="1086" frameX="0" frameY="-1" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10014" x="3138" y="2279" width="1569" height="1086" frameX="0" frameY="-1" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10015" x="4707" y="2279" width="1569" height="1075" frameX="0" frameY="-12" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10016" x="6276" y="2279" width="1569" height="1075" frameX="0" frameY="-12" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10017" x="0" y="3366" width="1569" height="1075" frameX="0" frameY="-12" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10018" x="1569" y="3366" width="1569" height="1075" frameX="0" frameY="-12" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10019" x="3138" y="3366" width="1569" height="1076" frameX="0" frameY="-11" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10020" x="4707" y="3366" width="1569" height="1076" frameX="0" frameY="-11" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10021" x="6276" y="3366" width="1569" height="1077" frameX="0" frameY="-10" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10022" x="0" y="4443" width="1569" height="1082" frameX="0" frameY="-5" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10023" x="0" y="4443" width="1569" height="1082" frameX="0" frameY="-5" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10024" x="0" y="4443" width="1569" height="1082" frameX="0" frameY="-5" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10025" x="1569" y="4443" width="1569" height="1081" frameX="0" frameY="-6" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10026" x="1569" y="4443" width="1569" height="1081" frameX="0" frameY="-6" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10027" x="1569" y="4443" width="1569" height="1081" frameX="0" frameY="-6" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10028" x="3138" y="4443" width="1569" height="1081" frameX="0" frameY="-6" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair Landing instance 10029" x="3138" y="4443" width="1569" height="1081" frameX="0" frameY="-6" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10000" x="4707" y="4443" width="1569" height="1072" frameX="0" frameY="-15" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10001" x="4707" y="4443" width="1569" height="1072" frameX="0" frameY="-15" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10002" x="6276" y="4443" width="1568" height="1064" frameX="0" frameY="-23" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10003" x="0" y="5525" width="1568" height="1063" frameX="0" frameY="-24" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10004" x="1568" y="5525" width="1568" height="1076" frameX="0" frameY="-11" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10005" x="3136" y="5525" width="1568" height="1076" frameX="0" frameY="-11" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10006" x="4704" y="5525" width="1568" height="1074" frameX="0" frameY="-13" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10007" x="6272" y="5525" width="1568" height="1085" frameX="0" frameY="-2" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10008" x="0" y="6610" width="1568" height="1077" frameX="0" frameY="-10" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10009" x="1568" y="6610" width="1568" height="1076" frameX="0" frameY="-11" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10010" x="3136" y="6610" width="1568" height="1087" frameX="0" frameY="0" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10011" x="3136" y="6610" width="1568" height="1087" frameX="0" frameY="0" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10012" x="4704" y="6610" width="1568" height="1079" frameX="0" frameY="-8" frameWidth="1569" frameHeight="1087"/>
+	<SubTexture name="GF Dancing Beat Hair blowing CAR instance 10013" x="6272" y="6610" width="1568" height="1086" frameX="0" frameY="-1" frameWidth="1569" frameHeight="1087"/>
+</TextureAtlas>
