@@ -116,6 +116,8 @@ class PlayState extends MusicBeatState
 	var songScore:Int = 0;
 	var scoreTxt:FlxText;
 
+	var raveyard_belltower:FlxSprite;
+	
 	public static var campaignScore:Int = 0;
 
 	var defaultCamZoom:Float = 1.05;
@@ -622,11 +624,13 @@ class PlayState extends MusicBeatState
 			raveyard_shrubs.active = false;
 			add(raveyard_shrubs);
 
-			var raveyard_belltower:FlxSprite = new FlxSprite(500, -300).loadGraphic(Paths.image('week2_bg/belltower'));
-			raveyard_belltower.updateHitbox();
-			raveyard_belltower.antialiasing = true;
+			raveyard_belltower = new FlxSprite(500, -300);
+			raveyard_belltower.frames = Paths.getSparrowAtlas('week2_bg/belltower');
+			raveyard_belltower.animation.addByPrefix('idle', 'belltower', 24, true);
+			raveyard_belltower.animation.addByPrefix('ringLEFT', 'belltower ring LEFT', 24);
+			raveyard_belltower.animation.addByPrefix('ringRIGHT', 'belltower ring RIGHT', 24);
 			raveyard_belltower.scrollFactor.set(0.8, 0.8);
-			raveyard_belltower.active = false;
+			raveyard_belltower.animation.play('idle');
 			add(raveyard_belltower);
 
 			var raveyard_ground:FlxSprite = new FlxSprite(-900, 400).loadGraphic(Paths.image('week2_bg/ground'));
@@ -1956,6 +1960,25 @@ class PlayState extends MusicBeatState
 										dad.playAnim('singRIGHT-alt', false);
 										health += 0.0875;
 							}*/
+						}
+
+						if (curSong == 'Marrow')
+						{
+							switch (curStep)
+							{
+								case 1:
+									camFollow.y = -4050;
+									camFollow.x += 200;
+									FlxG.camera.focusOn(camFollow.getPosition());
+								
+								case 32 | 48 | 80 | 160 | 192:
+									raveyard_belltower.animation.play('ringLEFT');
+									FlxG.log.add('DONG');
+
+								case 40 | 64 | 88 | 176 | 200:
+									raveyard_belltower.animation.play('ringRIGHT');
+									FlxG.log.add('DING');
+							}
 						}
 					}
 
