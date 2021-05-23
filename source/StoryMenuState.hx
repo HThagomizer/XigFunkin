@@ -24,7 +24,8 @@ class StoryMenuState extends MusicBeatState
 
 	var weekData:Array<Dynamic> = [
 		['Tutorial'],
-		['Probed', 'Lazerz', 'Brainfuck', 'Annihilation-Lol']
+		['Probed', 'Lazerz', 'Brainfuck', 'Annihilation-Lol'],
+		['Marrow']
 	];
 	var curDifficulty:Int = 1;
 
@@ -32,12 +33,14 @@ class StoryMenuState extends MusicBeatState
 
 	var weekCharacters:Array<Dynamic> = [
 		['dad', 'bf', 'gf'],
-		['alien', 'bf', 'gf']
+		['alien', 'bf', 'gf'],
+		['bones', 'bf', 'gf']
 	];
 
 	var weekNames:Array<String> = [
 		"",
-		"Martian Mixtape"
+		"Martian Mixtape",
+		"Boneyard Bash"
 	];
 
 	var txtWeekTitle:FlxText;
@@ -408,6 +411,10 @@ class StoryMenuState extends MusicBeatState
 
 			case 'alien':
 				grpWeekCharacters.members[0].offset.set(200, 200);
+				grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 1));
+			
+			case 'bones':
+				grpWeekCharacters.members[0].offset.set(150, 100);
 				grpWeekCharacters.members[0].setGraphicSize(Std.int(grpWeekCharacters.members[0].width * 1));
 
 			default:

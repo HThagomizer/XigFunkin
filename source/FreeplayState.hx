@@ -61,8 +61,10 @@ class FreeplayState extends MusicBeatState
 		isDebug = true;
 		#end
 		if (StoryMenuState.weekUnlocked[2] || isDebug)
-			addWeek(['Probed', 'Lazerz', 'Brainfuck', 'Annihilation-Lol'], 7, ['alien', 'alien', 'alien-pissed', 'alien-psychic']);
+			addWeek(['Probed', 'Lazerz', 'Brainfuck', 'Annihilation-Lol'], 1, ['alien', 'alien', 'alien-pissed', 'alien-psychic']);
 
+		if (StoryMenuState.weekUnlocked[2] || isDebug)
+			addWeek(['Marrow'], 2, ['bones']);
 		// LOAD MUSIC
 
 		// LOAD CHARACTERS
