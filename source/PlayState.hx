@@ -1966,10 +1966,15 @@ class PlayState extends MusicBeatState
 						{
 							switch (curStep)
 							{
-								case 1:
+
+								case -16:
 									camFollow.y = -4050;
 									camFollow.x += 200;
 									FlxG.camera.focusOn(camFollow.getPosition());
+									dad.color = 0xffffff;
+
+								case 96:
+									FlxTween.tween(dad, {color: 0x000000}, 0.5);
 								
 								case 32 | 48 | 80 | 160 | 192:
 									raveyard_belltower.animation.play('ringLEFT');
