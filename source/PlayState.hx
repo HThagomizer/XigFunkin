@@ -610,7 +610,7 @@ class PlayState extends MusicBeatState
 		{
 			defaultCamZoom = 0.9;
 			curStage = 'raveyard';
-			var raveyard_bg:FlxSprite = new FlxSprite(-600, -500).loadGraphic(Paths.image('week2_bg/sky'));
+			var raveyard_bg:FlxSprite = new FlxSprite(-700, -500).loadGraphic(Paths.image('week2_bg/sky'));
 			raveyard_bg.antialiasing = true;
 			raveyard_bg.scrollFactor.set(0.1, 0.1);
 			raveyard_bg.active = false;
@@ -627,8 +627,8 @@ class PlayState extends MusicBeatState
 			raveyard_belltower = new FlxSprite(500, -300);
 			raveyard_belltower.frames = Paths.getSparrowAtlas('week2_bg/belltower');
 			raveyard_belltower.animation.addByPrefix('idle', 'belltower', 24, true);
-			raveyard_belltower.animation.addByPrefix('ringLEFT', 'belltower ring LEFT', 24);
-			raveyard_belltower.animation.addByPrefix('ringRIGHT', 'belltower ring RIGHT', 24);
+			raveyard_belltower.animation.addByPrefix('ringLEFT', 'LEFT belltower ring', 24, false);
+			raveyard_belltower.animation.addByPrefix('ringRIGHT', 'RIGHT belltower ring', 24, false);
 			raveyard_belltower.scrollFactor.set(0.8, 0.8);
 			raveyard_belltower.animation.play('idle');
 			add(raveyard_belltower);
@@ -973,6 +973,18 @@ class PlayState extends MusicBeatState
 		{
 			switch (curSong.toLowerCase())
 			{
+				case 'marrow':
+					FlxTween.tween(dad, {color: 0x000000}, 0.1);
+					camFollow.setPosition(dad.getMidpoint().x + 350, -300);
+					FlxG.camera.focusOn(camFollow.getPosition());
+					FlxG.camera.zoom = 1.5;
+					FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, 2.5, {
+						ease: FlxEase.quadInOut,
+						onComplete: function(twn:FlxTween)
+						{
+							startCountdown();
+						}
+					});
 				default:
 					startCountdown();
 			}
@@ -1745,63 +1757,128 @@ class PlayState extends MusicBeatState
 
 			// Conductor.lastSongPos = FlxG.sound.music.time;
 		}
-
-		if (generatedMusic && PlayState.SONG.notes[Std.int(curStep / 16)] != null)
+		if (curSong.toLowerCase() == 'marrow')
 		{
-			if (curBeat % 4 == 0)
+			if(curStep > 96)
 			{
-				// trace(PlayState.SONG.notes[Std.int(curStep / 16)].mustHitSection);
-			}
+				if (generatedMusic && PlayState.SONG.notes[Std.int(curStep / 16)] != null)
+				{
+					if (curBeat % 4 == 0)
+					{
+						// trace(PlayState.SONG.notes[Std.int(curStep / 16)].mustHitSection);
+					}
 
-			if (camFollow.x != dad.getMidpoint().x + 150 && !PlayState.SONG.notes[Std.int(curStep / 16)].mustHitSection)
+					if (camFollow.x != dad.getMidpoint().x + 150 && !PlayState.SONG.notes[Std.int(curStep / 16)].mustHitSection)
+					{
+						camFollow.setPosition(dad.getMidpoint().x + 150, dad.getMidpoint().y - 100);
+						// camFollow.setPosition(lucky.getMidpoint().x - 120, lucky.getMidpoint().y + 210);
+
+						switch (dad.curCharacter)
+						{
+							case 'mom':
+								camFollow.y = dad.getMidpoint().y;
+							case 'senpai':
+								camFollow.y = dad.getMidpoint().y - 430;
+								camFollow.x = dad.getMidpoint().x - 100;
+							case 'senpai-angry':
+								camFollow.y = dad.getMidpoint().y - 430;
+								camFollow.x = dad.getMidpoint().x - 100;
+						}
+
+						if (dad.curCharacter == 'mom')
+							vocals.volume = 1;
+
+						if (SONG.song.toLowerCase() == 'tutorial')
+						{
+							tweenCamIn();
+						}
+					}
+
+					if (PlayState.SONG.notes[Std.int(curStep / 16)].mustHitSection && camFollow.x != boyfriend.getMidpoint().x - 100)
+					{
+						camFollow.setPosition(boyfriend.getMidpoint().x - 100, boyfriend.getMidpoint().y - 100);
+
+						switch (curStage)
+						{
+							case 'limo':
+								camFollow.x = boyfriend.getMidpoint().x - 300;
+							case 'mall':
+								camFollow.y = boyfriend.getMidpoint().y - 200;
+							case 'school':
+								camFollow.x = boyfriend.getMidpoint().x - 200;
+								camFollow.y = boyfriend.getMidpoint().y - 200;
+							case 'schoolEvil':
+								camFollow.x = boyfriend.getMidpoint().x - 200;
+								camFollow.y = boyfriend.getMidpoint().y - 200;
+						}
+
+						if (SONG.song.toLowerCase() == 'tutorial')
+						{
+							FlxTween.tween(FlxG.camera, {zoom: 1}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.elasticInOut});
+						}
+					}
+				}
+			}
+		} else
+			if (generatedMusic && PlayState.SONG.notes[Std.int(curStep / 16)] != null)
 			{
-				camFollow.setPosition(dad.getMidpoint().x + 150, dad.getMidpoint().y - 100);
-				// camFollow.setPosition(lucky.getMidpoint().x - 120, lucky.getMidpoint().y + 210);
-
-				switch (dad.curCharacter)
+				if (curBeat % 4 == 0)
 				{
-					case 'mom':
-						camFollow.y = dad.getMidpoint().y;
-					case 'senpai':
-						camFollow.y = dad.getMidpoint().y - 430;
-						camFollow.x = dad.getMidpoint().x - 100;
-					case 'senpai-angry':
-						camFollow.y = dad.getMidpoint().y - 430;
-						camFollow.x = dad.getMidpoint().x - 100;
+					// trace(PlayState.SONG.notes[Std.int(curStep / 16)].mustHitSection);
 				}
 
-				if (dad.curCharacter == 'mom')
-					vocals.volume = 1;
-
-				if (SONG.song.toLowerCase() == 'tutorial')
+				if (camFollow.x != dad.getMidpoint().x + 150 && !PlayState.SONG.notes[Std.int(curStep / 16)].mustHitSection)
 				{
-					tweenCamIn();
+					camFollow.setPosition(dad.getMidpoint().x + 150, dad.getMidpoint().y - 100);
+					// camFollow.setPosition(lucky.getMidpoint().x - 120, lucky.getMidpoint().y + 210);
+
+					switch (dad.curCharacter)
+					{
+						case 'mom':
+							camFollow.y = dad.getMidpoint().y;
+						case 'senpai':
+							camFollow.y = dad.getMidpoint().y - 430;
+							camFollow.x = dad.getMidpoint().x - 100;
+						case 'senpai-angry':
+							camFollow.y = dad.getMidpoint().y - 430;
+							camFollow.x = dad.getMidpoint().x - 100;
+					}
+
+					if (dad.curCharacter == 'mom')
+						vocals.volume = 1;
+
+					if (SONG.song.toLowerCase() == 'tutorial')
+					{
+						tweenCamIn();
+					}
+				}
+
+				if (PlayState.SONG.notes[Std.int(curStep / 16)].mustHitSection && camFollow.x != boyfriend.getMidpoint().x - 100)
+				{
+					camFollow.setPosition(boyfriend.getMidpoint().x - 100, boyfriend.getMidpoint().y - 100);
+
+					switch (curStage)
+					{
+						case 'limo':
+							camFollow.x = boyfriend.getMidpoint().x - 300;
+						case 'mall':
+							camFollow.y = boyfriend.getMidpoint().y - 200;
+						case 'school':
+							camFollow.x = boyfriend.getMidpoint().x - 200;
+							camFollow.y = boyfriend.getMidpoint().y - 200;
+						case 'schoolEvil':
+							camFollow.x = boyfriend.getMidpoint().x - 200;
+							camFollow.y = boyfriend.getMidpoint().y - 200;
+					}
+
+					if (SONG.song.toLowerCase() == 'tutorial')
+					{
+						FlxTween.tween(FlxG.camera, {zoom: 1}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.elasticInOut});
+					}
 				}
 			}
+		{
 
-			if (PlayState.SONG.notes[Std.int(curStep / 16)].mustHitSection && camFollow.x != boyfriend.getMidpoint().x - 100)
-			{
-				camFollow.setPosition(boyfriend.getMidpoint().x - 100, boyfriend.getMidpoint().y - 100);
-
-				switch (curStage)
-				{
-					case 'limo':
-						camFollow.x = boyfriend.getMidpoint().x - 300;
-					case 'mall':
-						camFollow.y = boyfriend.getMidpoint().y - 200;
-					case 'school':
-						camFollow.x = boyfriend.getMidpoint().x - 200;
-						camFollow.y = boyfriend.getMidpoint().y - 200;
-					case 'schoolEvil':
-						camFollow.x = boyfriend.getMidpoint().x - 200;
-						camFollow.y = boyfriend.getMidpoint().y - 200;
-				}
-
-				if (SONG.song.toLowerCase() == 'tutorial')
-				{
-					FlxTween.tween(FlxG.camera, {zoom: 1}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.elasticInOut});
-				}
-			}
 		}
 
 		if (camZooming)
@@ -1962,29 +2039,6 @@ class PlayState extends MusicBeatState
 							}*/
 						}
 
-						if (curSong == 'Marrow')
-						{
-							switch (curStep)
-							{
-
-								case -16:
-									camFollow.y = -4050;
-									camFollow.x += 200;
-									FlxG.camera.focusOn(camFollow.getPosition());
-									dad.color = 0xffffff;
-
-								case 96:
-									FlxTween.tween(dad, {color: 0x000000}, 0.5);
-								
-								case 32 | 48 | 80 | 160 | 192:
-									raveyard_belltower.animation.play('ringLEFT');
-									FlxG.log.add('DONG');
-
-								case 40 | 64 | 88 | 176 | 200:
-									raveyard_belltower.animation.play('ringRIGHT');
-									FlxG.log.add('DING');
-							}
-						}
 					}
 
 					switch (Math.abs(daNote.noteData))
@@ -2814,6 +2868,24 @@ class PlayState extends MusicBeatState
 					dad.playAnim('xigdeath', true);
 			}
 		}
+
+		if (curSong == 'Marrow')
+			{
+				//again i apologize to programmers everywhere
+				switch (curBeat)
+				{
+					case 8 | 12 | 20:
+						raveyard_belltower.animation.play('ringLEFT');
+						FlxG.log.add('DONG');
+
+					case 10 | 16 | 22:
+						raveyard_belltower.animation.play('ringRIGHT');
+						FlxG.log.add('DING');
+					
+					case 96:
+						FlxTween.color(dad, 0.5, FlxColor.BLACK, FlxColor.WHITE);
+				}
+			}
 
 		switch (curStage)
 		{
