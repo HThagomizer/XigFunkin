@@ -2882,7 +2882,7 @@ class PlayState extends MusicBeatState
 						raveyard_belltower.animation.play('ringRIGHT');
 						FlxG.log.add('DING');
 					
-					case 96:
+					case 24:
 						FlxTween.color(dad, 0.5, FlxColor.BLACK, FlxColor.WHITE);
 				}
 			}
