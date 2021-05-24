@@ -661,6 +661,22 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 18, -57);
 
 				playAnim('idle');
+			case 'hthagomizer':
+				tex = Paths.getSparrowAtlas('secret/thats_me');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24);
+				animation.addByPrefix('singUP', 'singUP', 24);
+				animation.addByPrefix('singRIGHT', 'singRIGHT', 24);
+				animation.addByPrefix('singDOWN', 'singDOWN', 24);
+				animation.addByPrefix('singLEFT', 'singLEFT', 24);
+	
+				addOffset('idle');
+				addOffset("singUP", 34, 9);
+				addOffset("singRIGHT", 8, -8);
+				addOffset("singLEFT", 36, 41);
+				addOffset("singDOWN", 18, -57);
+	
+				playAnim('idle');
 		}
 
 		dance();

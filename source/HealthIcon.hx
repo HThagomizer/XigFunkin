@@ -39,6 +39,7 @@ class HealthIcon extends FlxSprite
 		animation.add('alien-pissed', [26, 27], 0, false, isPlayer);
 		animation.add('alien-psychic', [26, 27], 0, false, isPlayer);
 		animation.add('bones', [10, 11], 0, false, isPlayer);
+		animation.add('hthagomizer', [28, 29], 0, false, isPlayer);
 		animation.play(char);
 		scrollFactor.set();
 	}
