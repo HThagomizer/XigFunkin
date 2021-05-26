@@ -20,4 +20,5 @@ alien-alt
 alien-pissed
 alien-psychic
 bones
+bones-cool
 hthagomizer

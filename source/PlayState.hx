@@ -778,6 +778,10 @@ class PlayState extends MusicBeatState
 				dad.x += 160;
 				dad.y += 110;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
+			case 'bones-cool':
+				dad.x += 160;
+				dad.y += 110;
+				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'hthagomizer':
 				dad.x += 200;
 				dad.y += 200;
@@ -989,6 +993,9 @@ class PlayState extends MusicBeatState
 							startCountdown();
 						}
 					});
+				case 'strut':
+					FlxTween.tween(dad, {color: 0x000000}, 0.00001);
+					startCountdown();
 				default:
 					startCountdown();
 			}
@@ -2888,6 +2895,36 @@ class PlayState extends MusicBeatState
 					
 					case 24:
 						FlxTween.color(dad, 0.5, FlxColor.BLACK, FlxColor.WHITE);
+				}
+			}
+		
+		if (curSong == 'Strut')
+			{
+				switch (curBeat)
+				{
+					case 4:
+						FlxTween.color(dad, 1, FlxColor.BLACK, FlxColor.WHITE);
+
+					case 6:
+						FlxTween.color(dad, 0.125, FlxColor.WHITE, FlxColor.BLACK);
+						FlxTween.color(dad, 0.125, FlxColor.BLACK, FlxColor.WHITE);
+						FlxTween.color(dad, 0.125, FlxColor.WHITE, FlxColor.BLACK);
+						FlxTween.color(dad, 0.125, FlxColor.BLACK, FlxColor.WHITE);
+						FlxTween.color(dad, 0.125, FlxColor.WHITE, FlxColor.BLACK);
+					
+					case 7:
+						FlxTween.color(dad, 0.5, FlxColor.RED, FlxColor.WHITE);
+					
+					case 40 | 56:
+						//new FlxTimer().start(0.01, function(tmr:FlxTimer)
+						//{
+						//	camPos.x = dad.getMidpoint().x + 10;
+						//	camPos.y = dad.getMidpoint().y + 50;
+						//	FlxG.camera.zoom = 5;
+						//});
+					
+					case 41 | 57:
+						//FlxG.camera.zoom = 1;
 				}
 			}
 

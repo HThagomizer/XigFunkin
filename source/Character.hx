@@ -661,6 +661,22 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 18, -57);
 
 				playAnim('idle');
+			case 'bones-cool':
+				tex = Paths.getSparrowAtlas('bones/cool_bones');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle cool', 24);
+				animation.addByPrefix('singUP', 'cool singUP', 24);
+				animation.addByPrefix('singRIGHT', 'cool singRIGHT', 24);
+				animation.addByPrefix('singDOWN', 'cool singDOWN', 24, false);
+				animation.addByPrefix('singLEFT', 'cool singLEFT', 24);
+
+				addOffset('idle');
+				addOffset("singUP", 4, 9);
+				addOffset("singRIGHT", 28, 2);
+				addOffset("singLEFT", 66, 2);
+				addOffset("singDOWN", 166, -227);
+
+				playAnim('idle');
 			case 'hthagomizer':
 				tex = Paths.getSparrowAtlas('secret/thats_me');
 				frames = tex;
