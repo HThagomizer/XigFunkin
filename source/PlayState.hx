@@ -765,27 +765,21 @@ class PlayState extends MusicBeatState
 			case 'alien':
 				dad.x += 160;
 				dad.y += 110;
-				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'alien-pissed':
 				dad.x += 160;
 				dad.y += 110;
-				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'alien-alt':
 				dad.x += 160;
 				dad.y += 110;
-				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'bones':
 				dad.x += 160;
 				dad.y += 110;
-				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'bones-cool':
 				dad.x += 160;
 				dad.y += 110;
-				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'hthagomizer':
 				dad.x += 200;
 				dad.y += 200;
-				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 		}
 
 		boyfriend = new Boyfriend(770, 450, SONG.player1);

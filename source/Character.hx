@@ -673,8 +673,8 @@ class Character extends FlxSprite
 				addOffset('idle');
 				addOffset("singUP", 4, 9);
 				addOffset("singRIGHT", 28, 2);
-				addOffset("singLEFT", 66, 2);
-				addOffset("singDOWN", 166, -227);
+				addOffset("singLEFT", 26, 2);
+				addOffset("singDOWN", -14, -17);
 
 				playAnim('idle');
 			case 'hthagomizer':
