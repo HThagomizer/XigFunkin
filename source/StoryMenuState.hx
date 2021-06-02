@@ -25,22 +25,25 @@ class StoryMenuState extends MusicBeatState
 	var weekData:Array<Dynamic> = [
 		['Tutorial'],
 		['Probed', 'Lazerz', 'Brainfuck', 'Annihilation-Lol'],
-		['Marrow']
+		['Marrow', 'Spinal-Tap'],
+		['Jersey', 'Twat']
 	];
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true, true];
+	public static var weekUnlocked:Array<Bool> = [true, true, true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['dad', 'bf', 'gf'],
 		['alien', 'bf', 'gf'],
+		['bones', 'bf', 'gf'],
 		['bones', 'bf', 'gf']
 	];
 
 	var weekNames:Array<String> = [
 		"",
 		"Martian Mixtape",
-		"Boneyard Bash"
+		"Boneyard Bash",
+		"Scary Secret Week"
 	];
 
 	var txtWeekTitle:FlxText;

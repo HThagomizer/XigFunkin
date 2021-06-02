@@ -967,6 +967,18 @@ class PlayState extends MusicBeatState
 					xigIntro(doof);
 				case 'annihilation-lol':
 					xigIntroTwo(doof);
+				case 'probed':
+					FlxTween.tween(dad, {color: 0x000000}, 0.1);
+					camFollow.setPosition(dad.getMidpoint().x + 350, -300);
+					FlxG.camera.focusOn(camFollow.getPosition());
+					FlxG.camera.zoom = 1.5;
+					FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, 2.5, {
+						ease: FlxEase.quadInOut,
+						onComplete: function(twn:FlxTween)
+						{
+							startCountdown();
+						}
+					});
 				default:
 					startCountdown();
 			}
@@ -987,9 +999,6 @@ class PlayState extends MusicBeatState
 							startCountdown();
 						}
 					});
-				case 'strut':
-					FlxTween.tween(dad, {color: 0x000000}, 0.00001);
-					startCountdown();
 				default:
 					startCountdown();
 			}
