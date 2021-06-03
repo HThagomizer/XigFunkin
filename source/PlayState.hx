@@ -606,7 +606,7 @@ class PlayState extends MusicBeatState
 
 			// fastCar = new FlxSprite(-300, 160).loadGraphic(Paths.image('weekX_bg/sky/fastPlaneLol'));
 		}
-		else if (SONG.song.toLowerCase() == 'marrow')
+		else if (SONG.song.toLowerCase() == 'marrow' || SONG.song.toLowerCase() == 'spinal-tap')
 		{
 			defaultCamZoom = 0.9;
 			curStage = 'raveyard';
@@ -967,18 +967,8 @@ class PlayState extends MusicBeatState
 					xigIntro(doof);
 				case 'annihilation-lol':
 					xigIntroTwo(doof);
-				case 'probed':
-					FlxTween.tween(dad, {color: 0x000000}, 0.1);
-					camFollow.setPosition(dad.getMidpoint().x + 350, -300);
-					FlxG.camera.focusOn(camFollow.getPosition());
-					FlxG.camera.zoom = 1.5;
-					FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, 2.5, {
-						ease: FlxEase.quadInOut,
-						onComplete: function(twn:FlxTween)
-						{
-							startCountdown();
-						}
-					});
+				case 'marrow':
+					bonesIntro(doof);
 				default:
 					startCountdown();
 			}
@@ -1126,6 +1116,92 @@ class PlayState extends MusicBeatState
 			}
 		});
 	}
+
+	function bonesIntro(?dialogueBox:DialogueBox):Void
+		{
+			remove(dad);
+			remove(gf);
+			remove(boyfriend);
+
+			var bonesIntro:FlxSprite = new FlxSprite(100, -100);
+			var cutsceneGrave:FlxSprite = new FlxSprite(100, -100);
+			var momIntro:FlxSprite = new FlxSprite(100, -100);
+			bonesIntro.frames = Paths.getSparrowAtlas('cutscenes/w2/bonesrise');
+			cutsceneGrave.frames = Paths.getSparrowAtlas('cutscenes/w2/grave');
+			momIntro.frames = Paths.getSparrowAtlas('cutscenes/w2/momIntro');
+			bonesIntro.animation.addByPrefix('idle', 'xigcutscene instance ', 24, false);
+			cutsceneGrave.animation.addByPrefix('idle', 'Symbol 1 instance ', 24, false);
+			momIntro.animation.addByPrefix('idle', 'mommy cutscene instance ', 24, false);
+			add(cutsceneGrave);
+			cutsceneGrave.x += 500;
+			cutsceneGrave.y += 600;
+
+			var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
+			black.scrollFactor.set();
+			add(black);
+
+			camFollow.x += 500;
+			camFollow.y += 300;
+			
+			inCutscene = true;
+			camHUD.visible = false;
+
+			FlxTween.tween(black, {alpha: 0}, 2.5, {
+				onComplete: function(twn:FlxTween)
+				{
+					new FlxTimer().start(4, function(swagTimer:FlxTimer)
+					{
+						camFollow.y -= 300;
+						add(momIntro);
+						momIntro.x += 600;
+						momIntro.y += 300;
+						momIntro.animation.play('idle');
+					});
+					new FlxTimer().start(6, function(swagTimer:FlxTimer)
+					{
+						camFollow.y += 400;
+						add(bonesIntro);
+						bonesIntro.x += 600;
+						bonesIntro.y += 900;
+						bonesIntro.animation.play('idle');
+					});
+
+					new FlxTimer().start(16, function(swagTimer:FlxTimer)
+					{
+						FlxTween.tween(black, {alpha: 1}, 0.2, {
+							onComplete: function(twn:FlxTween)
+							{
+								remove(bonesIntro);
+								remove(cutsceneGrave);
+								remove(momIntro);
+								add(gf);
+								add(dad);
+								
+								camFollow.setPosition(dad.getMidpoint().x + 350, -300);
+
+								FlxTween.tween(black, {alpha: 0}, 0.2, {
+									onComplete: function(twn:FlxTween)
+									{
+										camHUD.visible = true;
+										FlxG.camera.zoom = defaultCamZoom;
+										FlxTween.tween(dad, {color: 0x000000}, 0.1);
+										FlxG.camera.focusOn(camFollow.getPosition());
+										FlxG.camera.zoom = 1.5;
+										FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, 2.5, {
+											ease: FlxEase.quadInOut,
+											onComplete: function(twn:FlxTween)
+											{
+												startCountdown();
+											}
+										});
+									}
+								});
+							}
+						});
+					});
+				}
+			});
+		}
 
 	function schoolIntro(?dialogueBox:DialogueBox):Void
 	{
