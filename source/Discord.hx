@@ -1,5 +1,6 @@
 package;
 
+#if windows
 import Sys.sleep;
 import discord_rpc.DiscordRpc;
 
@@ -11,7 +12,7 @@ class DiscordClient
 	{
 		trace("Discord Client starting...");
 		DiscordRpc.start({
-			clientID: "814588678700924999",
+			clientID: "557069829501091850", // change this to what ever the fuck you want lol
 			onReady: onReady,
 			onError: onError,
 			onDisconnected: onDisconnected
@@ -28,13 +29,18 @@ class DiscordClient
 		DiscordRpc.shutdown();
 	}
 
+	public static function shutdown()
+	{
+		DiscordRpc.shutdown();
+	}
+
 	static function onReady()
 	{
 		DiscordRpc.presence({
 			details: "In the Menus",
 			state: null,
 			largeImageKey: 'icon',
-			largeImageText: "Friday Night Funkin'"
+			largeImageText: "fridaynightfunkin"
 		});
 	}
 
@@ -70,7 +76,7 @@ class DiscordClient
 			details: details,
 			state: state,
 			largeImageKey: 'icon',
-			largeImageText: "Friday Night Funkin'",
+			largeImageText: "fridaynightfunkin",
 			smallImageKey : smallImageKey,
 			// Obtained times are in milliseconds so they are divided so Discord can use it
 			startTimestamp : Std.int(startTimestamp / 1000),
@@ -80,3 +86,4 @@ class DiscordClient
 		//trace('Discord RPC Updated. Arguments: $details, $state, $smallImageKey, $hasStartTimestamp, $endTimestamp');
 	}
 }
+#end
