@@ -122,7 +122,7 @@ class Character extends FlxSprite
 				updateHitbox();
 				antialiasing = false;
 
-				case 'gf-ufo':
+			case 'gf-ufo':
 				// GIRLFRIEND CODE
 				tex = Paths.getSparrowAtlas('ufoGF/ufoGF_assets');
 				frames = tex;

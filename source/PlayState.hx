@@ -858,11 +858,11 @@ class PlayState extends MusicBeatState
 				gfVersion = 'gf-christmas';
 			case 'gf-pixel':
 				gfVersion = 'gf-pixel';
-			case 'park':
+			case 'gf-ufo':
 				gfVersion = 'gf-ufo';
-			case 'sky':
+			case 'gf-ufo-flying':
 				gfVersion = 'gf-ufo-flying';
-			case 'raveyard':
+			case 'gf-tombstone':
 				gfVersion = 'gf-tombstone';
 			default:
 				gfVersion = 'gf';
@@ -922,7 +922,7 @@ class PlayState extends MusicBeatState
 				dad.y += 110;
 			case 'bones':
 				dad.x += 160;
-				dad.y += 110;
+				dad.y += 130;
 			case 'bones-cool':
 				dad.x += 160;
 				dad.y += 110;
