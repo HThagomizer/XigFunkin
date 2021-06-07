@@ -974,6 +974,21 @@ class PlayState extends MusicBeatState
 				boyfriend.y += 220;
 				gf.x += 180;
 				gf.y += 300;
+			case 'park':
+				gf.x -= 300;
+				gf.y -= 300;
+			case 'sky':
+				dad.x -= 100;
+				gf.x -= 500;
+				gf.y -= 100;
+			case 'raveyard':
+				dad.y += 150;
+				gf.y += 100;
+				boyfriend.y += 100;
+
+
+
+
 		}
 
 		add(gf);
@@ -2292,6 +2307,7 @@ class PlayState extends MusicBeatState
 
 			// Conductor.lastSongPos = FlxG.sound.music.time;
 		}
+		
 
 		if (generatedMusic && PlayState.SONG.notes[Std.int(curStep / 16)] != null)
 		{
@@ -2463,6 +2479,8 @@ class PlayState extends MusicBeatState
 				}
 			}
 		}
+
+		
 
 		if (camZooming)
 		{
