@@ -5,5 +5,4 @@ Brainfuck:alien-pissed:1
 Annihilation-LOL:alien-pissed:1
 Marrow:bones:2
 Spinal Tap:bones:2
-Jersey:hthagomizer:3
-Twat:hthagomizer:3
+Shades:FBI:3

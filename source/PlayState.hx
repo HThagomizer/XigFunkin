@@ -929,6 +929,8 @@ class PlayState extends MusicBeatState
 			case 'hthagomizer':
 				dad.x += 200;
 				dad.y += 200;
+			case 'FBI':
+				dad.y += 100;
 		}
 
 
@@ -2219,6 +2221,8 @@ class PlayState extends MusicBeatState
 
 		if (healthBar.percent > 80)
 			iconP2.animation.curAnim.curFrame = 1;
+		if (healthBar.percent > 60 && dad.curCharacter == 'FBI')
+			iconP2.animation.curAnim.curFrame = 1;
 		else
 			iconP2.animation.curAnim.curFrame = 0;
 
@@ -2652,7 +2656,11 @@ class PlayState extends MusicBeatState
 							{
 								if (SONG.notes[Math.floor(curStep / 16)].altAnim)
 									altAnim = '-alt';
-		
+
+								if (health > 1.2 && dad.curCharacter == 'FBI') {
+									altAnim = '-alt';
+								}
+								
 								// gotchu
 		
 								if (curSong == 'Annihilation-Lol')
@@ -2689,12 +2697,20 @@ class PlayState extends MusicBeatState
 						{
 							case 2:
 								dad.playAnim('singUP' + altAnim, true);
+								if (healthBar.percent > 50 && dad.curCharacter == 'FBI')
+									health -= 0.02;
 							case 3:
 								dad.playAnim('singRIGHT' + altAnim, true);
+								if (healthBar.percent > 50 && dad.curCharacter == 'FBI')
+									health -= 0.02;
 							case 1:
 								dad.playAnim('singDOWN' + altAnim, true);
+								if (healthBar.percent > 50 && dad.curCharacter == 'FBI')
+									health -= 0.02;
 							case 0:
 								dad.playAnim('singLEFT' + altAnim, true);
+								if (healthBar.percent > 50 && dad.curCharacter == 'FBI')
+									health -= 0.02;
 						}
 						
 						if (FlxG.save.data.cpuStrums)
@@ -2810,14 +2826,14 @@ class PlayState extends MusicBeatState
 
 	function endSong():Void
 	{
-		if (!loadRep)
-			rep.SaveReplay(saveNotes);
-		else
-		{
-			FlxG.save.data.botplay = false;
-			FlxG.save.data.scrollSpeed = 1;
-			FlxG.save.data.downscroll = false;
-		}
+		//if (!loadRep)
+		//	rep.SaveReplay(saveNotes);
+		//else
+		//{
+		//	FlxG.save.data.botplay = false;
+		//	FlxG.save.data.scrollSpeed = 1;
+		//	FlxG.save.data.downscroll = false;
+		//}
 
 		if (FlxG.save.data.fpsCap > 290)
 			(cast (Lib.current.getChildAt(0), Main)).setFPSCap(290);

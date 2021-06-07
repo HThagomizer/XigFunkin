@@ -693,6 +693,29 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 17, -17);
 	
 				playAnim('idle');
+			case 'FBI':
+				frames = Paths.getSparrowAtlas('characters/FBI');
+				animation.addByPrefix('idle', 'goon idle', 24, false);
+				animation.addByPrefix('singUP', 'goon singUP', 24, false);
+				animation.addByPrefix('singDOWN', 'goon singDOWN', 24, false);
+				animation.addByPrefix('singLEFT', 'goon singLEFT', 24, false);
+				animation.addByPrefix('singRIGHT', 'goon singRIGHT', 24, false);
+				animation.addByPrefix('singUP-alt', 'goon alt singUP', 24, false);
+				animation.addByPrefix('singDOWN-alt', 'goon alt singDOWN', 24, false);
+				animation.addByPrefix('singLEFT-alt', 'goon alt singLEFT', 24, false);
+				animation.addByPrefix('singRIGHT-alt', 'goon alt singRIGHT', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", -5, 28);
+				addOffset("singRIGHT", -61, -3);
+				addOffset("singLEFT", 51, 1);
+				addOffset("singDOWN", 19, -49);
+				addOffset("singUP-alt", 3, 29);
+				addOffset("singRIGHT-alt", -84, -3);
+				addOffset("singLEFT-alt", 70, 5);
+				addOffset("singDOWN-alt", 7, -53);
+
+				playAnim('idle');
 		}
 
 		dance();

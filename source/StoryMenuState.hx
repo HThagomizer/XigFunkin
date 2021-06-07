@@ -27,7 +27,7 @@ class StoryMenuState extends MusicBeatState
 		['Tutorial'],
 		['Probed', 'Lazerz', 'Brainfuck', 'Annihilation-LOL'],
 		['Marrow', "Spinal Tap"],
-		['Jersey', "Twat"]
+		['Shades']
 	];
 	var curDifficulty:Int = 1;
 
@@ -44,7 +44,7 @@ class StoryMenuState extends MusicBeatState
 		"",
 		"Martian Mixtape",
 		"Boneyard Bash",
-		"Glasses Guy"
+		"Man in Black"
 	];
 
 	var txtWeekTitle:FlxText;
