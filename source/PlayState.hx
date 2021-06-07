@@ -1240,7 +1240,7 @@ class PlayState extends MusicBeatState
 			black.scrollFactor.set();
 			add(black);
 	
-			camFollow.x -= 300;
+			camFollow.x += 100;
 	
 			inCutscene = true;
 			camHUD.visible = false;
