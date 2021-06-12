@@ -163,6 +163,7 @@ class PlayState extends MusicBeatState
 	var trainSound:FlxSound;
 
 	var raveyard_belltower:FlxSprite;
+	var spinaltapbeam:FlxSprite;
 
 	var limo:FlxSprite;
 	var grpLimoDancers:FlxTypedGroup<BackgroundDancer>;
@@ -792,6 +793,13 @@ class PlayState extends MusicBeatState
 					gravesfront.antialiasing = true;
 					gravesfront.scrollFactor.set(0.9, 0.9);
 					gravesfront.active = false;
+
+					if (SONG.song.toLowerCase() == 'spinal tap')
+					{
+						spinaltapbeam = new FlxSprite(100, -100);
+						spinaltapbeam.frames = Paths.getSparrowAtlas('cutscenes/w2/spinaltap-beamup');
+						spinaltapbeam.animation.addByPrefix('idle', 'beam up', 24, false);
+					}
 				}
 			case 'stage':
 				{
@@ -3960,6 +3968,19 @@ class PlayState extends MusicBeatState
 					
 					case 24:
 						FlxTween.color(dad, 0.5, FlxColor.BLACK, FlxColor.WHITE);
+				}
+			}
+
+		if (curSong == 'Spinal Tap')
+			{
+				switch (curBeat)
+				{
+					case 236:
+						add(spinaltapbeam);
+						spinaltapbeam.x = dad.x - 100;
+						spinaltapbeam.y = dad.y - 1100;
+						remove(dad);
+						spinaltapbeam.animation.play('idle');
 				}
 			}
 
