@@ -939,6 +939,7 @@ class PlayState extends MusicBeatState
 				dad.y += 200;
 			case 'FBI':
 				dad.y += 100;
+				dad.x += 100;
 		}
 
 
