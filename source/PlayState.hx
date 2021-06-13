@@ -159,6 +159,7 @@ class PlayState extends MusicBeatState
 	var isHalloween:Bool = false;
 
 	var phillyCityLights:FlxTypedGroup<FlxSprite>;
+	var fbiCityLights:FlxTypedGroup<FlxSprite>;
 	var phillyTrain:FlxSprite;
 	var trainSound:FlxSound;
 
@@ -800,6 +801,39 @@ class PlayState extends MusicBeatState
 						spinaltapbeam.frames = Paths.getSparrowAtlas('cutscenes/w2/spinaltap-beamup');
 						spinaltapbeam.animation.addByPrefix('idle', 'beam up', 24, false);
 					}
+				}
+			case 'FBI':
+				{
+					curStage = 'FBI';
+
+					var bg:FlxSprite = new FlxSprite(-100).loadGraphic(Paths.image('bonus_bg/sky'));
+					bg.scrollFactor.set(0.1, 0.1);
+					add(bg);
+
+					var city:FlxSprite = new FlxSprite(10).loadGraphic(Paths.image('bonus_bg/city'));
+					city.scrollFactor.set(0.3, 0.3);
+					city.setGraphicSize(Std.int(city.width * 0.85));
+					city.updateHitbox();
+					add(city);
+
+					fbiCityLights = new FlxTypedGroup<FlxSprite>();
+					if(FlxG.save.data.distractions){
+						add(fbiCityLights);
+					}
+
+					for (i in 0...5)
+					{
+							var light:FlxSprite = new FlxSprite(city.x).loadGraphic(Paths.image('bonus_bg/fbi_text' + i));
+							light.scrollFactor.set(0.3, 0.3);
+							light.visible = false;
+							light.setGraphicSize(Std.int(light.width * 0.85));
+							light.updateHitbox();
+							light.antialiasing = true;
+							fbiCityLights.add(light);
+					}
+
+					var street:FlxSprite = new FlxSprite(-40, 800).loadGraphic(Paths.image('bonus_bg/sidewalk'));
+					add(street);
 				}
 			case 'stage':
 				{
@@ -4034,6 +4068,22 @@ class PlayState extends MusicBeatState
 					if(FlxG.save.data.distractions){
 						trainCooldown = FlxG.random.int(-4, 0);
 						trainStart();
+					}
+				}
+
+			case "FBI":
+				{
+				if (curBeat % 4 == 0)
+					{
+						fbiCityLights.forEach(function(light:FlxSprite)
+						{
+							light.visible = false;
+						});
+	
+						curLight = FlxG.random.int(0, fbiCityLights.length - 1);
+	
+						fbiCityLights.members[curLight].visible = true;
+						// fbiCityLights.members[curLight].alpha = 1;
 					}
 				}
 		}
