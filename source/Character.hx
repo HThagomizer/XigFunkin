@@ -339,6 +339,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHTmiss', 'BF NOTE RIGHT MISS', 24, false);
 				animation.addByPrefix('singDOWNmiss', 'BF NOTE DOWN MISS', 24, false);
 				animation.addByPrefix('hey', 'BF HEY', 24, false);
+				animation.addByPrefix('singRIGHT-hey', 'BF HEY', 24, false);
 
 				animation.addByPrefix('firstDeath', "BF dies", 24, false);
 				animation.addByPrefix('deathLoop', "BF Dead Loop", 24, true);
@@ -356,6 +357,7 @@ class Character extends FlxSprite
 				addOffset("singLEFTmiss", 12, 24);
 				addOffset("singDOWNmiss", -11, -19);
 				addOffset("hey", 7, 4);
+				addOffset("singRIGHT-hey", 7, 4);
 				addOffset('firstDeath', 37, 11);
 				addOffset('deathLoop', 37, 5);
 				addOffset('deathConfirm', 37, 69);
@@ -704,6 +706,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN-alt', 'goon alt singDOWN', 24, false);
 				animation.addByPrefix('singLEFT-alt', 'goon alt singLEFT', 24, false);
 				animation.addByPrefix('singRIGHT-alt', 'goon alt singRIGHT', 24, false);
+				animation.addByPrefix('singRIGHT-hey', 'goon HEY', 24, false);
 
 				addOffset('idle');
 				addOffset("singUP", -5, 28);
@@ -714,6 +717,7 @@ class Character extends FlxSprite
 				addOffset("singRIGHT-alt", -84, -3);
 				addOffset("singLEFT-alt", 70, 5);
 				addOffset("singDOWN-alt", 7, -53);
+				addOffset("singRIGHT-hey", 21, 42);
 
 				playAnim('idle');
 		}

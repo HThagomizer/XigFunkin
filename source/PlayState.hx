@@ -832,7 +832,17 @@ class PlayState extends MusicBeatState
 							fbiCityLights.add(light);
 					}
 
-					var street:FlxSprite = new FlxSprite(-40, 800).loadGraphic(Paths.image('bonus_bg/sidewalk'));
+					var buildings:FlxSprite = new FlxSprite(city.x - 100, city.y + 50).loadGraphic(Paths.image('bonus_bg/buildings'));
+					buildings.scrollFactor.set(0.6, 0.6);
+					add(buildings);
+
+					if (SONG.song.toLowerCase() == 'shades' || SONG.song.toLowerCase() == 'hey'){
+						var fbiguys:FlxSprite = new FlxSprite(buildings.x, buildings.y).loadGraphic(Paths.image('bonus_bg/fbiguys'));
+						fbiguys.scrollFactor.set(0.6, 0.6);
+						add(fbiguys);
+					}
+
+					var street:FlxSprite = new FlxSprite(-40, 600).loadGraphic(Paths.image('bonus_bg/sidewalk'));
 					add(street);
 				}
 			case 'stage':
@@ -2750,6 +2760,15 @@ class PlayState extends MusicBeatState
 												dad.playAnim('singRIGHT-alt', false);
 												health += 0.0875;
 									}*/
+								}
+
+								if (curSong == 'Hey')
+								{
+									switch (curStep)
+									{
+										case 60 | 124 | 156 | 220 | 268 | 300 | 380 | 444 | 476 | 540 | 638 | 700 | 764 | 796 | 860:
+											altAnim = '-hey';
+									}
 								}
 		
 							}
