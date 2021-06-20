@@ -160,6 +160,7 @@ class PlayState extends MusicBeatState
 
 	var phillyCityLights:FlxTypedGroup<FlxSprite>;
 	var fbiCityLights:FlxTypedGroup<FlxSprite>;
+	var parkLights:FlxTypedGroup<FlxSprite>;
 	var phillyTrain:FlxSprite;
 	var trainSound:FlxSound;
 
@@ -675,6 +676,24 @@ class PlayState extends MusicBeatState
 					park_bg.scrollFactor.set(0.1, 0.1);
 					park_bg.active = false;
 					add(park_bg);
+
+					if (SONG.song.toLowerCase() != 'probed') {
+						parkLights = new FlxTypedGroup<FlxSprite>();
+						if(FlxG.save.data.distractions){
+							add(parkLights);
+						}
+
+						for (i in 1...2)
+							{
+									var light:FlxSprite = new FlxSprite().loadGraphic(Paths.image('weekX_bg/lights' + i));
+									light.scrollFactor.set(0.3, 0.3);
+									light.visible = false;
+									light.setGraphicSize(Std.int(light.width * 0.85));
+									light.updateHitbox();
+									light.antialiasing = true;
+									parkLights.add(light);
+							}
+					}
 
 					var park_shrubs:FlxSprite = new FlxSprite(-500, 200).loadGraphic(Paths.image('weekX_bg/park_shrubs'));
 					park_shrubs.setGraphicSize(Std.int(park_shrubs.width * 0.9));
@@ -1612,7 +1631,11 @@ class PlayState extends MusicBeatState
 
 		startTimer = new FlxTimer().start(Conductor.crochet / 1000, function(tmr:FlxTimer)
 		{
-			dad.dance();
+			if(curSong == 'Annihilation-Lol' && curBeat < 55){
+				dad.dance();
+			} else if (curSong != 'Annihilation-Lol'){
+				dad.dance();
+			}
 			gf.dance();
 			boyfriend.playAnim('idle');
 
@@ -2287,9 +2310,9 @@ class PlayState extends MusicBeatState
 		else
 			iconP1.animation.curAnim.curFrame = 0;
 
-		if (healthBar.percent > 80)
-			iconP2.animation.curAnim.curFrame = 1;
 		if (healthBar.percent > 60 && dad.curCharacter == 'FBI')
+			iconP2.animation.curAnim.curFrame = 1;
+		else if (healthBar.percent > 80)
 			iconP2.animation.curAnim.curFrame = 1;
 		else
 			iconP2.animation.curAnim.curFrame = 0;
@@ -3896,7 +3919,11 @@ class PlayState extends MusicBeatState
 
 			// Dad doesnt interupt his own notes
 			if (SONG.notes[Math.floor(curStep / 16)].mustHitSection && dad.curCharacter != 'gf')
-				dad.dance();
+				if(curSong == 'Annihilation-Lol' && curBeat < 55){
+					dad.dance();
+				} else if (curSong != 'Annihilation-Lol'){
+					dad.dance();
+				}
 		}
 		// FlxG.log.add('change bpm' + SONG.notes[Std.int(curStep / 16)].changeBPM);
 		wiggleShit.update(Conductor.crochet);
@@ -3932,7 +3959,11 @@ class PlayState extends MusicBeatState
 		
 		if (!dad.animation.curAnim.name.startsWith("sing"))
 		{
-			dad.dance();
+			if(curSong == 'Annihilation-Lol' && curBeat < 55){
+				dad.dance();
+			} else if (curSong != 'Annihilation-Lol'){
+				dad.dance();
+			}
 		}
 
 		if (curBeat % 8 == 7 && curSong == 'Bopeebo')
@@ -4073,7 +4104,7 @@ class PlayState extends MusicBeatState
 						{
 							light.visible = false;
 						});
-	
+
 						curLight = FlxG.random.int(0, phillyCityLights.length - 1);
 	
 						phillyCityLights.members[curLight].visible = true;
@@ -4105,6 +4136,28 @@ class PlayState extends MusicBeatState
 						// fbiCityLights.members[curLight].alpha = 1;
 					}
 				}
+
+			case "park":
+				if (curBeat == 0)
+				{
+					curLight = 0;
+				}
+				if (curBeat % 4 == 0)
+					{
+						parkLights.forEach(function(light:FlxSprite)
+						{
+							light.visible = false;
+						});
+						
+						if (curLight == 1){
+							curLight = 0;
+						} else{
+							curLight = 1;
+						}
+	
+						parkLights.members[curLight].visible = true;
+					}
+				
 		}
 
 		if (isHalloween && FlxG.random.bool(10) && curBeat > lightningStrikeBeat + lightningOffset)
