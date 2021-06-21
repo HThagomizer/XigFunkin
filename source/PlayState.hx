@@ -677,24 +677,6 @@ class PlayState extends MusicBeatState
 					park_bg.active = false;
 					add(park_bg);
 
-					if (SONG.song.toLowerCase() != 'probed') {
-						parkLights = new FlxTypedGroup<FlxSprite>();
-						if(FlxG.save.data.distractions){
-							add(parkLights);
-						}
-
-						for (i in 1...2)
-							{
-									var light:FlxSprite = new FlxSprite().loadGraphic(Paths.image('weekX_bg/lights' + i));
-									light.scrollFactor.set(0.3, 0.3);
-									light.visible = false;
-									light.setGraphicSize(Std.int(light.width * 0.85));
-									light.updateHitbox();
-									light.antialiasing = true;
-									parkLights.add(light);
-							}
-					}
-
 					var park_shrubs:FlxSprite = new FlxSprite(-500, 200).loadGraphic(Paths.image('weekX_bg/park_shrubs'));
 					park_shrubs.setGraphicSize(Std.int(park_shrubs.width * 0.9));
 					park_shrubs.updateHitbox();
@@ -2789,8 +2771,10 @@ class PlayState extends MusicBeatState
 								{
 									switch (curStep)
 									{
-										case 60 | 124 | 156 | 220 | 268 | 300 | 380 | 444 | 476 | 540 | 638 | 700 | 764 | 796 | 860:
+										case 60 | 156 | 268 | 380 | 476 | 764 | 860:
 											altAnim = '-hey';
+										case 124 | 220 | 300 | 444 | 540 | 838 | 924:
+											boyfriend.playAnim('hey', true);
 									}
 								}
 		
@@ -4136,27 +4120,6 @@ class PlayState extends MusicBeatState
 						// fbiCityLights.members[curLight].alpha = 1;
 					}
 				}
-
-			case "park":
-				if (curBeat == 0)
-				{
-					curLight = 0;
-				}
-				if (curBeat % 4 == 0)
-					{
-						parkLights.forEach(function(light:FlxSprite)
-						{
-							light.visible = false;
-						});
-						
-						if (curLight == 1){
-							curLight = 0;
-						} else{
-							curLight = 1;
-						}
-	
-						parkLights.members[curLight].visible = true;
-					}
 				
 		}
 
