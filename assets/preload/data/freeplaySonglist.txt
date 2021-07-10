@@ -2,9 +2,10 @@ Tutorial:gf:1
 Probed:alien:1
 Lazerz:alien:1
 Brainfuck:alien-pissed:1
-Annihilation-LOL:alien-pissed:1
-Marrow:bones:2
-Spinal Tap:bones:2
-Confidential:FBI:3
-Hey:FBI:3
-Shades:FBI:3
+Confidential:FBI:2
+Hey:FBI:2
+Shades:FBI:2
+Marrow:bones:3
+Spinal Tap:bones:3
+Itch:harold:4
+Annihilation:alien-psychic:1

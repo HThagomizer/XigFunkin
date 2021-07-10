@@ -21,5 +21,6 @@ alien-pissed
 alien-psychic
 bones
 bones-cool
-hthagomizer
+bones-spectral
+harold
 FBI

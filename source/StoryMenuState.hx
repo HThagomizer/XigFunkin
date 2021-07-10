@@ -26,16 +26,18 @@ class StoryMenuState extends MusicBeatState
 	var weekData:Array<Dynamic> = [
 		['Tutorial'],
 		['Probed', 'Lazerz', 'Brainfuck', 'Annihilation-LOL'],
+		['Confidential', 'Hey', 'Shades'],
 		['Marrow', "Spinal Tap"],
-		['Confidential', 'Hey', 'Shades']
+		['Itch']
 	];
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, true, true];
+	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['', 'bf', 'gf'],
 		['alien', 'bf', 'gf'],
+		['bones', 'bf', 'gf'],
 		['bones', 'bf', 'gf'],
 		['bones', 'bf', 'gf']
 	];
@@ -44,7 +46,8 @@ class StoryMenuState extends MusicBeatState
 		"",
 		"Martian Mixtape",
 		"Boneyard Bash",
-		"Man in Black"
+		"Man in Black",
+		"I Don't Want To Believe"
 	];
 
 	var txtWeekTitle:FlxText;

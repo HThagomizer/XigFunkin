@@ -677,8 +677,24 @@ class Character extends FlxSprite
 				addOffset("singDOWN", -14, -17);
 
 				playAnim('idle');
-			case 'hthagomizer':
-				tex = Paths.getSparrowAtlas('secret/thats_me');
+			case 'bones-spectral':
+				tex = Paths.getSparrowAtlas('bones/spectral_bones');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24);
+				animation.addByPrefix('singUP', 'singUP spectral', 24);
+				animation.addByPrefix('singRIGHT', 'singRIGHT spectral', 24);
+				animation.addByPrefix('singDOWN', 'singDOWN spectral', 24, false);
+				animation.addByPrefix('singLEFT', 'singLEFT spectral', 24);
+
+				addOffset('idle');
+				addOffset("singUP", 24, -21);
+				addOffset("singRIGHT", -2, 12);
+				addOffset("singLEFT", 66, 12);
+				addOffset("singDOWN", 6, -87);
+
+				playAnim('idle');
+			case 'harold':
+				tex = Paths.getSparrowAtlas('secret/harold');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle', 24);
 				animation.addByPrefix('singUP', 'singUP', 24);
@@ -687,10 +703,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'singLEFT', 24);
 	
 				addOffset('idle');
-				addOffset("singUP", -6, 39);
-				addOffset("singRIGHT", 4, 9);
-				addOffset("singLEFT", 6, -9);
-				addOffset("singDOWN", 17, -17);
+				addOffset("singUP", -6, 50);
+				addOffset("singRIGHT", -5, 7);
+				addOffset("singLEFT", 49, 3);
+				addOffset("singDOWN", -4, -22);
 	
 				playAnim('idle');
 			case 'FBI':
