@@ -4036,7 +4036,7 @@ class PlayState extends MusicBeatState
 		{
 			switch(curStep)
 			{
-				case 124 | 220 | 300 | 444 | 540 | 838 | 924:
+				case 124 | 220 | 300 | 444 | 540 | 828 | 924:
 					boyfriend.playAnim('hey', true);
 			}
 		}
