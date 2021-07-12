@@ -7,5 +7,6 @@ Hey:FBI:2
 Shades:FBI:2
 Marrow:bones:3
 Spinal Tap:bones:3
+Tinfoil:harold:4
 Itch:harold:4
 Annihilation:alien-psychic:1

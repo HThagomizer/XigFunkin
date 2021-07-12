@@ -671,13 +671,13 @@ class PlayState extends MusicBeatState
 				{
 					defaultCamZoom = 0.9;
 					curStage = 'park';
-					var park_bg:FlxSprite = new FlxSprite(-600, -500).loadGraphic(Paths.image('weekX_bg/park_sky'));
+					var park_bg:FlxSprite = new FlxSprite(-600, -500).loadGraphic(Paths.image('week1_bg/park_sky'));
 					park_bg.antialiasing = true;
 					park_bg.scrollFactor.set(0.1, 0.1);
 					park_bg.active = false;
 					add(park_bg);
 
-					var park_shrubs:FlxSprite = new FlxSprite(-500, 200).loadGraphic(Paths.image('weekX_bg/park_shrubs'));
+					var park_shrubs:FlxSprite = new FlxSprite(-500, 200).loadGraphic(Paths.image('week1_bg/park_shrubs'));
 					park_shrubs.setGraphicSize(Std.int(park_shrubs.width * 0.9));
 					park_shrubs.updateHitbox();
 					park_shrubs.antialiasing = true;
@@ -685,7 +685,7 @@ class PlayState extends MusicBeatState
 					park_shrubs.active = false;
 					add(park_shrubs);
 
-					var park_trees:FlxSprite = new FlxSprite(-500, -500).loadGraphic(Paths.image('weekX_bg/park_trees'));
+					var park_trees:FlxSprite = new FlxSprite(-500, -500).loadGraphic(Paths.image('week1_bg/park_trees'));
 					park_trees.setGraphicSize(Std.int(park_trees.width * 0.9));
 					park_trees.updateHitbox();
 					park_trees.antialiasing = true;
@@ -693,7 +693,7 @@ class PlayState extends MusicBeatState
 					park_trees.active = false;
 					add(park_trees);
 
-					var park_ground:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('weekX_bg/park_ground'));
+					var park_ground:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week1_bg/park_ground'));
 					park_ground.setGraphicSize(Std.int(park_ground.width * 1.1));
 					park_ground.updateHitbox();
 					park_ground.antialiasing = true;
@@ -724,13 +724,13 @@ class PlayState extends MusicBeatState
 					defaultCamZoom = 0.9;
 					curStage = 'sky';
 
-					var sky_bg:FlxSprite = new FlxSprite(-600, -500).loadGraphic(Paths.image('weekX_bg/sky/skybg'));
+					var sky_bg:FlxSprite = new FlxSprite(-600, -500).loadGraphic(Paths.image('week1_bg/sky/skybg'));
 					sky_bg.antialiasing = true;
 					sky_bg.scrollFactor.set(0.1, 0.1);
 					sky_bg.active = false;
 					add(sky_bg);
 
-					// fastCar = new FlxSprite(-300, 160).loadGraphic(Paths.image('weekX_bg/sky/fastPlaneLol'));
+					// fastCar = new FlxSprite(-300, 160).loadGraphic(Paths.image('week1_bg/sky/fastPlaneLol'));
 					
 				}
 
@@ -738,13 +738,13 @@ class PlayState extends MusicBeatState
 				{
 					defaultCamZoom = 0.9;
 					curStage = 'raveyard';
-					var raveyard_bg:FlxSprite = new FlxSprite(-700, -500).loadGraphic(Paths.image('week2_bg/sky'));
+					var raveyard_bg:FlxSprite = new FlxSprite(-550, -500).loadGraphic(Paths.image('week3_bg/sky'));
 					raveyard_bg.antialiasing = true;
 					raveyard_bg.scrollFactor.set(0.1, 0.1);
 					raveyard_bg.active = false;
 					add(raveyard_bg);
 
-					var raveyard_shrubs:FlxSprite = new FlxSprite(-500, 100).loadGraphic(Paths.image('week2_bg/shrubs'));
+					var raveyard_shrubs:FlxSprite = new FlxSprite(-500, 100).loadGraphic(Paths.image('week3_bg/shrubs'));
 					raveyard_shrubs.setGraphicSize(Std.int(raveyard_shrubs.width * 0.9));
 					raveyard_shrubs.updateHitbox();
 					raveyard_shrubs.antialiasing = true;
@@ -753,7 +753,7 @@ class PlayState extends MusicBeatState
 					add(raveyard_shrubs);
 
 					raveyard_belltower = new FlxSprite(500, -300);
-					raveyard_belltower.frames = Paths.getSparrowAtlas('week2_bg/belltower');
+					raveyard_belltower.frames = Paths.getSparrowAtlas('week3_bg/belltower');
 					raveyard_belltower.animation.addByPrefix('idle', 'belltower', 24, true);
 					raveyard_belltower.animation.addByPrefix('ringLEFT', 'LEFT belltower ring', 24, false);
 					raveyard_belltower.animation.addByPrefix('ringRIGHT', 'RIGHT belltower ring', 24, false);
@@ -761,7 +761,7 @@ class PlayState extends MusicBeatState
 					raveyard_belltower.animation.play('idle');
 					add(raveyard_belltower);
 
-					var raveyard_ground:FlxSprite = new FlxSprite(-900, 400).loadGraphic(Paths.image('week2_bg/ground'));
+					var raveyard_ground:FlxSprite = new FlxSprite(-900, 400).loadGraphic(Paths.image('week3_bg/ground'));
 					raveyard_ground.setGraphicSize(Std.int(raveyard_ground.width * 1.1));
 					raveyard_ground.updateHitbox();
 					raveyard_ground.antialiasing = true;
@@ -769,28 +769,28 @@ class PlayState extends MusicBeatState
 					raveyard_ground.active = false;
 					add(raveyard_ground);
 
-					var raveyard_gravesbacker:FlxSprite = new FlxSprite(-650, 300).loadGraphic(Paths.image('week2_bg/gravesbacker'));
+					var raveyard_gravesbacker:FlxSprite = new FlxSprite(-650, 300).loadGraphic(Paths.image('week3_bg/gravesbacker'));
 					raveyard_gravesbacker.updateHitbox();
 					raveyard_gravesbacker.antialiasing = true;
 					raveyard_gravesbacker.scrollFactor.set(0.9, 0.9);
 					raveyard_gravesbacker.active = false;
 					add(raveyard_gravesbacker);
 
-					var raveyard_gravesback:FlxSprite = new FlxSprite(-650, 450).loadGraphic(Paths.image('week2_bg/gravesback'));
+					var raveyard_gravesback:FlxSprite = new FlxSprite(-650, 450).loadGraphic(Paths.image('week3_bg/gravesback'));
 					raveyard_gravesback.updateHitbox();
 					raveyard_gravesback.antialiasing = true;
 					raveyard_gravesback.scrollFactor.set(0.9, 0.9);
 					raveyard_gravesback.active = false;
 					add(raveyard_gravesback);
 
-					var raveyard_graves:FlxSprite = new FlxSprite(-400, 450).loadGraphic(Paths.image('week2_bg/graves'));
+					var raveyard_graves:FlxSprite = new FlxSprite(-400, 450).loadGraphic(Paths.image('week3_bg/graves'));
 					raveyard_graves.updateHitbox();
 					raveyard_graves.antialiasing = true;
 					raveyard_graves.scrollFactor.set(0.9, 0.9);
 					raveyard_graves.active = false;
 					add(raveyard_graves);
 
-					var gravesfront:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week2_bg/gravesfront'));
+					var gravesfront:FlxSprite = new FlxSprite(-650, 400).loadGraphic(Paths.image('week3_bg/gravesfront'));
 					gravesfront.updateHitbox();
 					gravesfront.antialiasing = true;
 					gravesfront.scrollFactor.set(0.9, 0.9);
@@ -807,11 +807,11 @@ class PlayState extends MusicBeatState
 				{
 					curStage = 'FBI';
 
-					var bg:FlxSprite = new FlxSprite(-100).loadGraphic(Paths.image('bonus_bg/sky'));
+					var bg:FlxSprite = new FlxSprite(-100).loadGraphic(Paths.image('week2_bg/sky'));
 					bg.scrollFactor.set(0.1, 0.1);
 					add(bg);
 
-					var city:FlxSprite = new FlxSprite(10).loadGraphic(Paths.image('bonus_bg/city'));
+					var city:FlxSprite = new FlxSprite(10).loadGraphic(Paths.image('week2_bg/city'));
 					city.scrollFactor.set(0.3, 0.3);
 					city.setGraphicSize(Std.int(city.width * 0.85));
 					city.updateHitbox();
@@ -824,7 +824,7 @@ class PlayState extends MusicBeatState
 
 					for (i in 0...5)
 					{
-							var light:FlxSprite = new FlxSprite(city.x).loadGraphic(Paths.image('bonus_bg/fbi_text' + i));
+							var light:FlxSprite = new FlxSprite(city.x).loadGraphic(Paths.image('week2_bg/fbi_text' + i));
 							light.scrollFactor.set(0.3, 0.3);
 							light.visible = false;
 							light.setGraphicSize(Std.int(light.width * 0.85));
@@ -833,18 +833,71 @@ class PlayState extends MusicBeatState
 							fbiCityLights.add(light);
 					}
 
-					var buildings:FlxSprite = new FlxSprite(city.x - 100, city.y + 50).loadGraphic(Paths.image('bonus_bg/buildings'));
+					var buildings:FlxSprite = new FlxSprite(city.x - 100, city.y + 50).loadGraphic(Paths.image('week2_bg/buildings'));
 					buildings.scrollFactor.set(0.6, 0.6);
 					add(buildings);
 
 					if (SONG.song.toLowerCase() == 'shades' || SONG.song.toLowerCase() == 'hey'){
-						var fbiguys:FlxSprite = new FlxSprite(buildings.x, buildings.y).loadGraphic(Paths.image('bonus_bg/fbiguys'));
+						var fbiguys:FlxSprite = new FlxSprite(buildings.x, buildings.y).loadGraphic(Paths.image('week2_bg/fbiguys'));
 						fbiguys.scrollFactor.set(0.6, 0.6);
 						add(fbiguys);
 					}
 
-					var street:FlxSprite = new FlxSprite(-40, 600).loadGraphic(Paths.image('bonus_bg/sidewalk'));
+					var street:FlxSprite = new FlxSprite(-40, 600).loadGraphic(Paths.image('week2_bg/sidewalk'));
 					add(street);
+				}
+			case 'freak':
+				{
+					curStage = 'freak';
+					var bg:FlxSprite = new FlxSprite(-500, -700).loadGraphic(Paths.image('week4_bg/wallbg'));
+					bg.antialiasing = true;
+					bg.setGraphicSize(Std.int(bg.width * 1.3));
+					bg.updateHitbox();
+					bg.scrollFactor.set(0.9, 0.9);
+					bg.active = false;
+					add(bg);
+
+					var pinboard:FlxSprite = new FlxSprite(450, -200).loadGraphic(Paths.image('week4_bg/pinboard'));
+					pinboard.antialiasing = true;
+					pinboard.updateHitbox();
+					pinboard.scrollFactor.set(0.9, 0.9);
+					pinboard.active = false;
+					add(pinboard);
+
+					var backboard:FlxSprite = new FlxSprite(1150, -100).loadGraphic(Paths.image('week4_bg/backmost pinboard'));
+					backboard.antialiasing = true;
+					backboard.updateHitbox();
+					backboard.scrollFactor.set(0.9, 0.9);
+					backboard.active = false;
+					add(backboard);
+
+					var whiteboard:FlxSprite = new FlxSprite(0, -100).loadGraphic(Paths.image('week4_bg/whiteboard'));
+					whiteboard.antialiasing = true;
+					whiteboard.updateHitbox();
+					whiteboard.scrollFactor.set(0.9, 0.9);
+					whiteboard.active = false;
+					add(whiteboard);
+
+					var desk:FlxSprite = new FlxSprite(800, 230).loadGraphic(Paths.image('week4_bg/desk'));
+					desk.antialiasing = true;
+					desk.updateHitbox();
+					desk.scrollFactor.set(0.9, 0.9);
+					desk.active = false;
+					add(desk);
+
+					var board:FlxSprite = new FlxSprite(200, 300).loadGraphic(Paths.image('week4_bg/board'));
+					board.antialiasing = true;
+					board.updateHitbox();
+					board.scrollFactor.set(0.9, 0.9);
+					board.active = false;
+					add(board);
+
+					var lights:FlxSprite = new FlxSprite(200, -100).loadGraphic(Paths.image('week4_bg/lights'));
+					lights.antialiasing = true;
+					lights.updateHitbox();
+					lights.scrollFactor.set(1.3, 1.3);
+					lights.active = false;
+					add(lights);
 				}
 			case 'stage':
 				{
@@ -1034,6 +1087,8 @@ class PlayState extends MusicBeatState
 			case 'park':
 				gf.x -= 300;
 				gf.y -= 300;
+				FlxTween.tween(boyfriend, {color: 0xa99dc9}, 0.1);
+				FlxTween.tween(dad, {color: 0xa99dc9}, 0.1);
 			case 'sky':
 				dad.x -= 100;
 				gf.x -= 500;
@@ -1307,6 +1362,8 @@ class PlayState extends MusicBeatState
 			xigIntro.x += 100;
 			cutsceneUfo.y += 90;
 			boyfriend.x += 250;
+			FlxTween.tween(boyfriend, {color: 0xa99dc9}, 0.0000001);
+			FlxTween.tween(xigIntro, {color: 0xa99dc9}, 0.0000001);
 	
 			var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
 			black.scrollFactor.set();
@@ -1365,6 +1422,7 @@ class PlayState extends MusicBeatState
 			remove(dad);
 			dad = new Character(100, 100, 'alien-pissed');
 			add(dad);
+			FlxTween.tween(dad, {color: 0xa99dc9}, 0.0000001);
 			dad.x += 160;
 			dad.y += 110;
 			camFollow.x -= 300;
@@ -1391,6 +1449,7 @@ class PlayState extends MusicBeatState
 									remove(dad);
 									dad = new Character(100, 100, 'alien-psychic');
 									add(dad);
+									FlxTween.tween(dad, {color: 0xa99dc9}, 0.0000001);
 									new FlxTimer().start(1, function(swagTimer:FlxTimer)
 									{
 										FlxTween.tween(red, {alpha: 0}, 0.2, {
@@ -4037,6 +4096,7 @@ class PlayState extends MusicBeatState
 			switch(curStep)
 			{
 				case 124 | 220 | 300 | 444 | 540 | 828 | 924:
+					vocals.volume = 1;
 					boyfriend.playAnim('hey', true);
 			}
 		}
@@ -4057,6 +4117,7 @@ class PlayState extends MusicBeatState
 					{
 						remove(dad);
 						dad = new Character(100, 100, 'alien-alt');
+						FlxTween.tween(dad, {color: 0xa99dc9}, 0.0000001);
 						add(dad);
 						dad.alpha = 1;
 						dad.x += 160;
@@ -4066,6 +4127,7 @@ class PlayState extends MusicBeatState
 				case(168):
 					remove(dad);
 					dad = new Character(100, 100, 'alien');
+					FlxTween.tween(dad, {color: 0xa99dc9}, 0.0000001);
 					add(dad);
 					dad.x += 160;
 					dad.y += 110;
@@ -4083,6 +4145,7 @@ class PlayState extends MusicBeatState
 					{
 						remove(dad);
 						dad = new Character(100, 100, 'alien-pissed');
+						FlxTween.tween(dad, {color: 0xa99dc9}, 0.0000001);
 						add(dad);
 						dad.alpha = 1;
 						dad.x += 160;

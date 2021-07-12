@@ -557,7 +557,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'alien':
-				tex = Paths.getSparrowAtlas('alien/alien_assets');
+				tex = Paths.getSparrowAtlas('characters/alien_assets');
 				frames = tex;
 				animation.addByPrefix('idle', 'xigidle', 24);
 				animation.addByPrefix('singUP', 'xigup', 24, false);
@@ -580,7 +580,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'alien-alt':
-				tex = Paths.getSparrowAtlas('alien/alt_alien_assets');
+				tex = Paths.getSparrowAtlas('characters/alt_alien_assets');
 				frames = tex;
 				animation.addByPrefix('idle', 'xigidle', 24);
 				animation.addByPrefix('singUP', 'xigup', 24, false);
@@ -598,7 +598,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'alien-pissed':
-				tex = Paths.getSparrowAtlas('alien/alienpissed_assets');
+				tex = Paths.getSparrowAtlas('characters/alienpissed_assets');
 				frames = tex;
 				animation.addByPrefix('idle', 'pissedidle', 24);
 				animation.addByPrefix('singUP', 'pissedup', 24, false);
@@ -618,7 +618,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 			case 'alien-psychic':
 				// XIG ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('alien/alienpsychic_assets');
+				tex = Paths.getSparrowAtlas('characters/alienpsychic_assets');
 				frames = tex;
 				animation.addByPrefix('idle', 'INSANEidle', 24);
 				animation.addByPrefix('singUP', 'INSANEup', 24);
@@ -646,7 +646,7 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 			case 'bones':
-				tex = Paths.getSparrowAtlas('bones/own_bones');
+				tex = Paths.getSparrowAtlas('characters/own_bones');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle', 24);
 				animation.addByPrefix('singUP', 'singUP', 24);
@@ -662,7 +662,7 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 			case 'bones-cool':
-				tex = Paths.getSparrowAtlas('bones/cool_bones');
+				tex = Paths.getSparrowAtlas('characters/cool_bones');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle cool', 24);
 				animation.addByPrefix('singUP', 'cool singUP', 24);
@@ -678,7 +678,7 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 			case 'bones-spectral':
-				tex = Paths.getSparrowAtlas('bones/spectral_bones');
+				tex = Paths.getSparrowAtlas('characters/spectral_bones');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle', 24);
 				animation.addByPrefix('singUP', 'singUP spectral', 24);
@@ -694,7 +694,7 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 			case 'harold':
-				tex = Paths.getSparrowAtlas('secret/harold');
+				tex = Paths.getSparrowAtlas('characters/harold');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle', 24);
 				animation.addByPrefix('singUP', 'singUP', 24);
