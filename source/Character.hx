@@ -701,12 +701,14 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'singRIGHT', 24);
 				animation.addByPrefix('singDOWN', 'singDOWN', 24);
 				animation.addByPrefix('singLEFT', 'singLEFT', 24);
+				animation.addByPrefix('singDOWN-alt', 'ach', 24, false);
 	
 				addOffset('idle');
 				addOffset("singUP", -6, 50);
 				addOffset("singRIGHT", -5, 7);
 				addOffset("singLEFT", 49, 3);
 				addOffset("singDOWN", -4, -22);
+				addOffset('singDOWN-alt', 2, 5);
 	
 				playAnim('idle');
 			case 'FBI':
