@@ -165,6 +165,8 @@ class PlayState extends MusicBeatState
 	var trainSound:FlxSound;
 
 	var raveyard_belltower:FlxSprite;
+	var bgSkeletons:FlxSprite;
+	var danced:Bool = false;
 	var spinaltapbeam:FlxSprite;
 
 	var limo:FlxSprite;
@@ -783,6 +785,26 @@ class PlayState extends MusicBeatState
 					raveyard_gravesback.active = false;
 					add(raveyard_gravesback);
 
+					if (SONG.song.toLowerCase() == 'pelvic' || if (SONG.song.toLowerCase() == 'spinal tap')
+						{
+							bgSkeletons = new FlxSprite(-250, 260);
+							var skeletex = Paths.getSparrowAtlas('week3_bg/skeletons');
+							bgSkeletons.frames = skeletex;
+							bgSkeletons.animation.addByPrefix('rise', 'skeletons rise', 24, false);
+							bgSkeletons.animation.addByPrefix('idle', 'skeletons idle', 24, true);
+							bgSkeletons.animation.addByPrefix('danceLEFT', 'skeletons dance left', 24, false);
+							bgSkeletons.animation.addByPrefix('danceRIGHT', 'skeletons dance right', 24, false);
+							if (SONG.song.toLowerCase() == 'pelvic')
+							{
+								bgSkeletons.animation.play('rise');
+							} else if (SONG.song.toLowerCase() == 'spinal tap')
+							{
+								bgSkeletons.animation.play('idle');
+							}
+							bgSkeletons.scrollFactor.set(0.9, 0.9);
+							add(bgSkeletons);
+						}
+
 					var raveyard_graves:FlxSprite = new FlxSprite(-400, 450).loadGraphic(Paths.image('week3_bg/graves'));
 					raveyard_graves.updateHitbox();
 					raveyard_graves.antialiasing = true;
@@ -871,7 +893,7 @@ class PlayState extends MusicBeatState
 					backboard.active = false;
 					add(backboard);
 
-					var whiteboard:FlxSprite = new FlxSprite(0, -100).loadGraphic(Paths.image('week4_bg/whiteboard'));
+					var whiteboard:FlxSprite = new FlxSprite(-200, -100).loadGraphic(Paths.image('week4_bg/whiteboard'));
 					whiteboard.antialiasing = true;
 					whiteboard.updateHitbox();
 					whiteboard.scrollFactor.set(0.9, 0.9);
@@ -1017,25 +1039,16 @@ class PlayState extends MusicBeatState
 				dad.x -= 150;
 				dad.y += 100;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
-			case 'alien':
+			case 'alien' | 'alien-pissed' | 'alien-alt':
 				dad.x += 160;
 				dad.y += 110;
-			case 'alien-pissed':
-				dad.x += 160;
-				dad.y += 110;
-			case 'alien-alt':
-				dad.x += 160;
-				dad.y += 110;
-			case 'bones':
+			case 'bones' | 'bones-spectral':
 				dad.x += 160;
 				dad.y += 130;
 			case 'bones-cool':
 				dad.x += 160;
 				dad.y += 110;
-			case 'bones-spectral':
-				dad.x += 160;
-				dad.y += 110;
-			case 'harold':
+			case 'harold' | 'harold-caffeinated':
 				dad.x += 200;
 				dad.y += 150;
 			case 'FBI':
@@ -1317,6 +1330,16 @@ class PlayState extends MusicBeatState
 						xigIntroTwo(doof);
 					case 'marrow':
 						bonesIntro(doof);
+					// case 'pelvic':
+					// 	remove(dad);
+					// 	dad = new Character(100, 100, 'bones');
+					// 	add(dad);
+					// 	dad.x += 160;
+					// 	dad.y += 130;
+					// 	FlxTween.tween(dad, {color: 0x000000}, 0.1);
+					// 	startCountdown();
+					case 'itch':
+						haroldIntroTwo(doof);
 					default:
 						startCountdown();
 				}
@@ -1337,6 +1360,14 @@ class PlayState extends MusicBeatState
 								startCountdown();
 							}
 						});
+					// case 'pelvic':
+					// 	remove(dad);
+					// 	dad = new Character(100, 100, 'bones');
+					// 	add(dad);
+					// 	dad.x += 160;
+					// 	dad.y += 130;
+					// 	FlxTween.tween(dad, {color: 0x000000}, 0.1);
+					// 	startCountdown();
 					default:
 						startCountdown();
 				}
@@ -1480,10 +1511,8 @@ class PlayState extends MusicBeatState
 				var momIntro:FlxSprite = new FlxSprite(100, -100);
 				bonesIntro.frames = Paths.getSparrowAtlas('cutscenes/w2/bonesrise');
 				cutsceneGrave.frames = Paths.getSparrowAtlas('cutscenes/w2/grave');
-				momIntro.frames = Paths.getSparrowAtlas('cutscenes/w2/momIntro');
 				bonesIntro.animation.addByPrefix('idle', 'xigcutscene instance ', 24, false);
 				cutsceneGrave.animation.addByPrefix('idle', 'Symbol 1 instance ', 24, false);
-				momIntro.animation.addByPrefix('idle', 'mommy cutscene instance ', 24, false);
 				add(cutsceneGrave);
 				cutsceneGrave.x += 500;
 				cutsceneGrave.y += 600;
@@ -1503,14 +1532,6 @@ class PlayState extends MusicBeatState
 					{
 						new FlxTimer().start(4, function(swagTimer:FlxTimer)
 						{
-							camFollow.y -= 300;
-							add(momIntro);
-							momIntro.x += 600;
-							momIntro.y += 300;
-							momIntro.animation.play('idle');
-						});
-						new FlxTimer().start(6, function(swagTimer:FlxTimer)
-						{
 							camFollow.y += 400;
 							add(bonesIntro);
 							bonesIntro.x += 600;
@@ -1518,14 +1539,13 @@ class PlayState extends MusicBeatState
 							bonesIntro.animation.play('idle');
 						});
 	
-						new FlxTimer().start(16, function(swagTimer:FlxTimer)
+						new FlxTimer().start(14, function(swagTimer:FlxTimer)
 						{
 							FlxTween.tween(black, {alpha: 1}, 0.2, {
 								onComplete: function(twn:FlxTween)
 								{
 									remove(bonesIntro);
 									remove(cutsceneGrave);
-									remove(momIntro);
 									add(gf);
 									add(dad);
 									add(boyfriend);
@@ -1555,6 +1575,49 @@ class PlayState extends MusicBeatState
 					}
 				});
 			}
+
+	function haroldIntroTwo(?dialogueBox:DialogueBox):Void
+		{
+			var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
+			black.scrollFactor.set();
+			add(black);
+			remove(dad);
+			dad = new Character(100, 100, 'harold');
+			add(dad);
+			dad.x += 200;
+			dad.y += 150;
+			camFollow.x -= 100;
+	
+			inCutscene = true;
+			camHUD.visible = false;
+	
+			FlxTween.tween(black, {alpha: 0}, 1, {
+				onComplete: function(twn:FlxTween)
+				{
+					dad.playAnim('swig');
+					new FlxTimer().start(3, function(swagTimer:FlxTimer)
+					{
+						FlxTween.tween(black, {alpha: 1}, 0.2, {
+							onComplete: function(twn:FlxTween)
+							{
+								remove(dad);
+								dad = new Character(100, 100, 'harold-caffeinated');
+								add(dad);
+								dad.playAnim('idle');
+								FlxTween.tween(black, {alpha: 0}, 0.2, {
+									onComplete: function(twn:FlxTween)
+									{
+										camHUD.visible = true;
+										FlxG.camera.zoom = defaultCamZoom;
+										startCountdown();
+									}
+								});
+							}
+						});
+					});
+				}
+			});
+		}
 	
 
 	function schoolIntro(?dialogueBox:DialogueBox):Void
@@ -4101,6 +4164,39 @@ class PlayState extends MusicBeatState
 			}
 		}
 
+		if (curSong == 'Pelvic') 
+		{
+			switch(curStep)
+			{
+				case 64:
+					bgSkeletons.animation.play('idle');
+
+				// case 52 | 56 | 60:
+				// 	FlxTween.color(dad, 0.0001, FlxColor.WHITE, FlxColor.BLACK);
+				// 	FlxG.log.add('FLOP');
+
+				// case 50 | 54:
+				// 	FlxTween.color(dad, 0.0001, FlxColor.BLACK, FlxColor.WHITE);
+				// 	FlxG.log.add('FLIP');
+
+				// case 58:
+				// 	remove(dad);
+				// 	dad = new Character(100, 100, 'bones-cool');
+				// 	add(dad);
+				// 	FlxTween.color(dad, 0.0001, FlxColor.BLACK, FlxColor.WHITE);
+				// 	dad.x += 160;
+				// 	dad.y += 110;
+				// 	FlxG.log.add('FLIP');
+
+				// case 62:
+				// 	FlxTween.color(dad, 0.0001, FlxColor.BLACK, FlxColor.WHITE);
+				// 	FlxG.camera.zoom = 1.5;
+				// 	dad.playAnim('singUP');
+				// 	FlxG.log.add('FLIP');
+			}
+		}
+
+
 		if (curBeat % 16 == 15 && SONG.song == 'Tutorial' && dad.curCharacter == 'gf' && curBeat > 16 && curBeat < 48)
 			{
 				boyfriend.playAnim('hey', true);
@@ -4145,6 +4241,7 @@ class PlayState extends MusicBeatState
 					{
 						remove(dad);
 						dad = new Character(100, 100, 'alien-pissed');
+						iconP2.animation.play('alien-pissed');
 						FlxTween.tween(dad, {color: 0xa99dc9}, 0.0000001);
 						add(dad);
 						dad.alpha = 1;
@@ -4267,6 +4364,23 @@ class PlayState extends MusicBeatState
 	
 						fbiCityLights.members[curLight].visible = true;
 						// fbiCityLights.members[curLight].alpha = 1;
+					}
+				}
+
+			case "raveyard":
+				{
+					if(FlxG.save.data.distractions){
+						if (curSong == "Pelvic" && curBeat >= 64){
+								if (curBeat % 2 == 0)
+								{
+									danced = !danced;
+
+									if (danced)
+										bgSkeletons.animation.play('danceRIGHT');
+									else
+										bgSkeletons.animation.play('danceLEFT');
+								}
+						}
 					}
 				}
 				

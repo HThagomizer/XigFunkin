@@ -6,6 +6,7 @@ Confidential:FBI:2
 Hey:FBI:2
 Shades:FBI:2
 Marrow:bones:3
+Pelvic:bones-cool:3
 Spinal Tap:bones:3
 Tinfoil:harold:4
 Itch:harold:4

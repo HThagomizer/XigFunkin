@@ -27,7 +27,7 @@ class StoryMenuState extends MusicBeatState
 		['Tutorial'],
 		['Probed', 'Lazerz', 'Brainfuck', 'Annihilation-LOL'],
 		['Confidential', 'Hey', 'Shades'],
-		['Marrow', "Spinal Tap"],
+		['Marrow', "Pelvic", "Spinal Tap"],
 		['Tinfoil', 'Itch']
 	];
 	var curDifficulty:Int = 1;
@@ -37,16 +37,16 @@ class StoryMenuState extends MusicBeatState
 	var weekCharacters:Array<Dynamic> = [
 		['', 'bf', 'gf'],
 		['alien', 'bf', 'gf'],
+		['fbi', 'bf', 'gf'],
 		['bones', 'bf', 'gf'],
-		['bones', 'bf', 'gf'],
-		['bones', 'bf', 'gf']
+		['harold', 'bf', 'gf']
 	];
 
 	var weekNames:Array<String> = [
 		"",
 		"Martian Mixtape",
-		"Boneyard Bash",
 		"Man in Black",
+		"Boneyard Bash",
 		"I Don't Want To Believe"
 	];
 

@@ -46,6 +46,7 @@ class HealthIcon extends FlxSprite
 		animation.add('bones-cool', [10, 11], 0, false, isPlayer);
 		animation.add('bones-spectral', [10, 11], 0, false, isPlayer);
 		animation.add('harold', [28, 29], 0, false, isPlayer);
+		animation.add('harold-caffeinated', [32, 33], 0, false, isPlayer);
 		animation.add('FBI', [30, 31], 0, false, isPlayer);
 		animation.play(char);
 

@@ -2,244 +2,244 @@
 <TextureAtlas imagePath="bonesrise.png">
 	<!-- Created with Adobe Animate version 21.0.1.37179 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="xigcutscene instance 10000" x="0" y="0" width="37" height="16" frameX="-45" frameY="-85" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10001" x="37" y="0" width="37" height="15" frameX="-45" frameY="-85" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10002" x="74" y="0" width="42" height="19" frameX="-40" frameY="-81" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10003" x="74" y="0" width="42" height="19" frameX="-40" frameY="-81" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10004" x="116" y="0" width="47" height="20" frameX="-35" frameY="-80" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10005" x="116" y="0" width="47" height="20" frameX="-35" frameY="-80" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10006" x="163" y="0" width="49" height="17" frameX="-33" frameY="-83" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10007" x="163" y="0" width="49" height="17" frameX="-33" frameY="-83" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10008" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10009" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10010" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10011" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10012" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10013" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10014" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10015" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10016" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10017" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10018" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10019" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10020" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10021" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10022" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10023" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10024" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10025" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10026" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10027" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10028" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10029" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10030" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10031" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10032" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10033" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10034" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10035" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10036" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10037" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10038" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10039" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10040" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10041" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10042" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10043" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10044" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10045" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10046" x="212" y="0" width="37" height="13" frameX="-45" frameY="-87" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10047" x="249" y="0" width="73" height="20" frameX="-33" frameY="-83" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10048" x="249" y="0" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10049" x="322" y="0" width="78" height="22" frameX="-33" frameY="-80" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10050" x="322" y="0" width="78" height="22" frameX="-33" frameY="-80" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10051" x="400" y="0" width="82" height="23" frameX="-33" frameY="-79" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10052" x="400" y="0" width="82" height="23" frameX="-33" frameY="-79" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10053" x="0" y="23" width="85" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10054" x="0" y="23" width="85" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10055" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10056" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10057" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10058" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10059" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10060" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10061" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10062" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10063" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10064" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10065" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10066" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10067" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10068" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10069" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10070" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10071" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10072" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10073" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10074" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10075" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10076" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10077" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10078" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10079" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10080" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10081" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10082" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10083" x="85" y="23" width="73" height="20" frameX="-33" frameY="-82" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10084" x="158" y="23" width="101" height="25" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10085" x="259" y="23" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10086" x="360" y="23" width="101" height="28" frameX="-14" frameY="-72" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10087" x="360" y="23" width="101" height="28" frameX="-14" frameY="-72" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10088" x="0" y="51" width="101" height="32" frameX="-14" frameY="-68" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10089" x="0" y="51" width="101" height="32" frameX="-14" frameY="-68" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10090" x="101" y="51" width="101" height="31" frameX="-14" frameY="-69" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10091" x="101" y="51" width="101" height="31" frameX="-14" frameY="-69" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10092" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10093" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10094" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10095" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10096" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10097" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10098" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10099" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10100" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10101" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10102" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10103" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10104" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10105" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10106" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10107" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10108" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10109" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10110" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10111" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10112" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10113" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10114" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10115" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10116" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10117" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10118" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10119" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10120" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10121" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10122" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10123" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10124" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10125" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10126" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10127" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10128" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10129" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10130" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10131" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10132" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10133" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10134" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10135" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10136" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10137" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10138" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10139" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10140" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10141" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10142" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10143" x="202" y="51" width="101" height="24" frameX="-14" frameY="-76" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10144" x="303" y="51" width="158" height="95" frameX="0" frameY="-38" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10145" x="303" y="51" width="158" height="95" frameX="0" frameY="-38" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10146" x="0" y="146" width="158" height="109" frameX="0" frameY="-24" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10147" x="0" y="146" width="158" height="109" frameX="0" frameY="-24" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10148" x="158" y="146" width="158" height="117" frameX="0" frameY="-16" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10149" x="158" y="146" width="158" height="117" frameX="0" frameY="-16" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10150" x="316" y="146" width="158" height="130" frameX="0" frameY="-3" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10151" x="316" y="146" width="158" height="130" frameX="0" frameY="-3" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10152" x="0" y="276" width="158" height="132" frameX="0" frameY="-1" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10153" x="0" y="276" width="158" height="132" frameX="0" frameY="-1" frameWidth="158" frameHeight="133"/>
-	<SubTexture name="xigcutscene instance 10154" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10155" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10156" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10157" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10158" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10159" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10160" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10161" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10162" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10163" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10164" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10165" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10166" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10167" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10168" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10169" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10170" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10171" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10172" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10173" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10174" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10175" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10176" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10177" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10178" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10179" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10180" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10181" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10182" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10183" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10184" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10185" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10186" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10187" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10188" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10189" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10190" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10191" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10192" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10193" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10194" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10195" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10196" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10197" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10198" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10199" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10200" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10201" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10202" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10203" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10204" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10205" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10206" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10207" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10208" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10209" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10210" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10211" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10212" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10213" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10214" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10215" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10216" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10217" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10218" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10219" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10220" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10221" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10222" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10223" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10224" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10225" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10226" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10227" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10228" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10229" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10230" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10231" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10232" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10233" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10234" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10235" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10236" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10237" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10238" x="158" y="276" width="158" height="133"/>
-	<SubTexture name="xigcutscene instance 10239" x="158" y="276" width="158" height="133"/>
+	<SubTexture name="xigcutscene0000" x="0" y="0" width="37" height="17" frameX="-44" frameY="-89" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0001" x="37" y="0" width="37" height="16" frameX="-44" frameY="-89" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0002" x="74" y="0" width="42" height="20" frameX="-39" frameY="-85" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0003" x="74" y="0" width="42" height="20" frameX="-39" frameY="-85" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0004" x="116" y="0" width="46" height="20" frameX="-35" frameY="-85" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0005" x="116" y="0" width="46" height="20" frameX="-35" frameY="-85" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0006" x="162" y="0" width="49" height="17" frameX="-32" frameY="-88" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0007" x="162" y="0" width="49" height="17" frameX="-32" frameY="-88" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0008" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0009" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0010" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0011" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0012" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0013" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0014" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0015" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0016" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0017" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0018" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0019" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0020" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0021" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0022" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0023" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0024" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0025" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0026" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0027" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0028" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0029" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0030" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0031" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0032" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0033" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0034" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0035" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0036" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0037" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0038" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0039" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0040" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0041" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0042" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0043" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0044" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0045" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0046" x="211" y="0" width="37" height="14" frameX="-44" frameY="-91" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0047" x="248" y="0" width="73" height="20" frameX="-32" frameY="-88" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0048" x="248" y="0" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0049" x="321" y="0" width="78" height="22" frameX="-32" frameY="-85" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0050" x="321" y="0" width="78" height="22" frameX="-32" frameY="-85" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0051" x="399" y="0" width="82" height="23" frameX="-32" frameY="-84" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0052" x="399" y="0" width="82" height="23" frameX="-32" frameY="-84" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0053" x="0" y="23" width="85" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0054" x="0" y="23" width="85" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0055" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0056" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0057" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0058" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0059" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0060" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0061" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0062" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0063" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0064" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0065" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0066" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0067" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0068" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0069" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0070" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0071" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0072" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0073" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0074" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0075" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0076" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0077" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0078" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0079" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0080" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0081" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0082" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0083" x="85" y="23" width="73" height="20" frameX="-32" frameY="-87" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0084" x="158" y="23" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0085" x="258" y="23" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0086" x="358" y="23" width="100" height="27" frameX="-14" frameY="-78" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0087" x="358" y="23" width="100" height="27" frameX="-14" frameY="-78" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0088" x="0" y="50" width="100" height="31" frameX="-14" frameY="-74" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0089" x="0" y="50" width="100" height="31" frameX="-14" frameY="-74" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0090" x="100" y="50" width="100" height="31" frameX="-14" frameY="-74" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0091" x="100" y="50" width="100" height="31" frameX="-14" frameY="-74" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0092" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0093" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0094" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0095" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0096" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0097" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0098" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0099" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0100" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0101" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0102" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0103" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0104" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0105" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0106" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0107" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0108" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0109" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0110" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0111" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0112" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0113" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0114" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0115" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0116" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0117" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0118" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0119" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0120" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0121" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0122" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0123" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0124" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0125" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0126" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0127" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0128" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0129" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0130" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0131" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0132" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0133" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0134" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0135" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0136" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0137" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0138" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0139" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0140" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0141" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0142" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0143" x="200" y="50" width="100" height="24" frameX="-14" frameY="-81" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0144" x="300" y="50" width="157" height="94" frameX="0" frameY="-44" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0145" x="300" y="50" width="157" height="94" frameX="0" frameY="-44" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0146" x="0" y="144" width="157" height="135" frameX="0" frameY="-3" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0147" x="0" y="144" width="157" height="135" frameX="0" frameY="-3" frameWidth="157" frameHeight="138"/>
+	<SubTexture name="xigcutscene0148" x="157" y="144" width="157" height="138"/>
+	<SubTexture name="xigcutscene0149" x="157" y="144" width="157" height="138"/>
+	<SubTexture name="xigcutscene0150" x="314" y="144" width="157" height="138"/>
+	<SubTexture name="xigcutscene0151" x="314" y="144" width="157" height="138"/>
+	<SubTexture name="xigcutscene0152" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0153" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0154" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0155" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0156" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0157" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0158" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0159" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0160" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0161" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0162" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0163" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0164" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0165" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0166" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0167" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0168" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0169" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0170" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0171" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0172" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0173" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0174" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0175" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0176" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0177" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0178" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0179" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0180" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0181" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0182" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0183" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0184" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0185" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0186" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0187" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0188" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0189" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0190" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0191" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0192" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0193" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0194" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0195" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0196" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0197" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0198" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0199" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0200" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0201" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0202" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0203" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0204" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0205" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0206" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0207" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0208" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0209" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0210" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0211" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0212" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0213" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0214" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0215" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0216" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0217" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0218" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0219" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0220" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0221" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0222" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0223" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0224" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0225" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0226" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0227" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0228" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0229" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0230" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0231" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0232" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0233" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0234" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0235" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0236" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0237" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0238" x="0" y="282" width="157" height="138"/>
+	<SubTexture name="xigcutscene0239" x="0" y="282" width="157" height="138"/>
 </TextureAtlas>
