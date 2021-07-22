@@ -1045,9 +1045,12 @@ class PlayState extends MusicBeatState
 			case 'alien' | 'alien-pissed' | 'alien-alt':
 				dad.x += 160;
 				dad.y += 110;
-			case 'bones' | 'bones-spectral':
+			case 'bones':
 				dad.x += 200;
 				dad.y += 130;
+			case 'bones-spectral':
+				dad.x += 220;
+				dad.y += 110;
 			case 'bones-cool':
 				dad.x += 180;
 				dad.y += 110;
@@ -1596,8 +1599,8 @@ class PlayState extends MusicBeatState
 				black.scrollFactor.set();
 				add(black);
 	
-				camFollow.x += 400;
-				camFollow.y += 250;
+				camFollow.x = (dad.getMidpoint().x + 150);
+				camFollow.y += 20;
 
 				bgSkeletons.animation.play('idle');
 				
@@ -1646,7 +1649,7 @@ class PlayState extends MusicBeatState
 			add(dad);
 			dad.x += 200;
 			dad.y += 150;
-			camFollow.x -= 100;
+			camFollow.x = (dad.getMidpoint().x + 150);
 	
 			inCutscene = true;
 			camHUD.visible = false;
@@ -1656,7 +1659,7 @@ class PlayState extends MusicBeatState
 				{
 					FlxG.sound.play(Paths.sound('drinka_boy'), 1, false, null, true);
 					dad.playAnim('swig');
-					new FlxTimer().start(3, function(swagTimer:FlxTimer)
+					new FlxTimer().start(4, function(swagTimer:FlxTimer)
 					{
 						FlxTween.tween(black, {alpha: 1}, 0.2, {
 							onComplete: function(twn:FlxTween)
