@@ -136,126 +136,126 @@
 	<SubTexture name="singLEFT spectral0057" x="1319" y="602" width="314" height="607" frameX="0" frameY="-7" frameWidth="314" frameHeight="614"/>
 	<SubTexture name="singLEFT spectral0058" x="1005" y="602" width="314" height="607" frameX="0" frameY="-7" frameWidth="314" frameHeight="614"/>
 	<SubTexture name="singLEFT spectral0059" x="1319" y="602" width="314" height="607" frameX="0" frameY="-7" frameWidth="314" frameHeight="614"/>
-	<SubTexture name="singRIGHT spectral0000" x="1633" y="602" width="283" height="611" frameX="0" frameY="-1" frameWidth="284" frameHeight="612"/>
-	<SubTexture name="singRIGHT spectral0001" x="1916" y="602" width="283" height="611" frameX="0" frameY="-1" frameWidth="284" frameHeight="612"/>
-	<SubTexture name="singRIGHT spectral0002" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0003" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0004" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0005" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0006" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0007" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0008" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0009" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0010" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0011" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0012" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0013" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0014" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0015" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0016" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0017" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0018" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0019" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0020" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0021" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0022" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0023" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0024" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0025" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0026" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0027" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0028" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0029" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0030" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0031" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0032" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0033" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0034" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0035" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0036" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0037" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0038" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0039" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0040" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0041" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0042" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0043" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0044" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0045" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0046" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0047" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0048" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0049" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0050" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0051" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0052" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0053" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0054" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0055" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0056" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0057" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0058" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0059" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0060" x="2199" y="602" width="284" height="612"/>
-	<SubTexture name="singRIGHT spectral0061" x="2483" y="602" width="284" height="612"/>
-	<SubTexture name="singUP spectral0000" x="2767" y="602" width="310" height="568" frameX="0" frameY="-12" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0001" x="3077" y="602" width="310" height="568" frameX="0" frameY="-12" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0002" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0003" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0004" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0005" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0006" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0007" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0008" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0009" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0010" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0011" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0012" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0013" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0014" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0015" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0016" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0017" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0018" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0019" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0020" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0021" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0022" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0023" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0024" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0025" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0026" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0027" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0028" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0029" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0030" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0031" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0032" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0033" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0034" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0035" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0036" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0037" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0038" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0039" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0040" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0041" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0042" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0043" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0044" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0045" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0046" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0047" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0048" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0049" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0050" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0051" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0052" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0053" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0054" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0055" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0056" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0057" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0058" x="3387" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
-	<SubTexture name="singUP spectral0059" x="3697" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singRIGHT spectral0000" x="1633" y="602" width="263" height="611" frameX="0" frameY="-1" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0001" x="1896" y="602" width="263" height="611" frameX="0" frameY="-1" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0002" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0003" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0004" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0005" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0006" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0007" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0008" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0009" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0010" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0011" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0012" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0013" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0014" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0015" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0016" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0017" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0018" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0019" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0020" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0021" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0022" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0023" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0024" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0025" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0026" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0027" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0028" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0029" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0030" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0031" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0032" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0033" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0034" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0035" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0036" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0037" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0038" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0039" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0040" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0041" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0042" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0043" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0044" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0045" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0046" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0047" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0048" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0049" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0050" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0051" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0052" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0053" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0054" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0055" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0056" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0057" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0058" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0059" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0060" x="2159" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singRIGHT spectral0061" x="2421" y="602" width="262" height="612" frameX="-2" frameY="0" frameWidth="264" frameHeight="612"/>
+	<SubTexture name="singUP spectral0000" x="2683" y="602" width="310" height="568" frameX="0" frameY="-12" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0001" x="2993" y="602" width="310" height="568" frameX="0" frameY="-12" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0002" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0003" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0004" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0005" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0006" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0007" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0008" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0009" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0010" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0011" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0012" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0013" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0014" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0015" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0016" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0017" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0018" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0019" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0020" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0021" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0022" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0023" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0024" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0025" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0026" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0027" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0028" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0029" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0030" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0031" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0032" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0033" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0034" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0035" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0036" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0037" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0038" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0039" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0040" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0041" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0042" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0043" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0044" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0045" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0046" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0047" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0048" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0049" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0050" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0051" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0052" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0053" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0054" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0055" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0056" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0057" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0058" x="3303" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
+	<SubTexture name="singUP spectral0059" x="3613" y="602" width="310" height="580" frameX="-1" frameY="0" frameWidth="311" frameHeight="580"/>
 </TextureAtlas>

@@ -187,6 +187,7 @@ class PlayState extends MusicBeatState
 	var songScoreDef:Int = 0;
 	var scoreTxt:FlxText;
 	var replayTxt:FlxText;
+	var cowardTxt:FlxText;
 
 	public static var campaignScore:Int = 0;
 
@@ -785,7 +786,7 @@ class PlayState extends MusicBeatState
 					raveyard_gravesback.active = false;
 					add(raveyard_gravesback);
 
-					if (SONG.song.toLowerCase() == 'pelvic' || if (SONG.song.toLowerCase() == 'spinal tap')
+					if ((SONG.song.toLowerCase() == 'pelvic' || SONG.song.toLowerCase() == 'spinal tap'))
 						{
 							bgSkeletons = new FlxSprite(-250, 260);
 							var skeletex = Paths.getSparrowAtlas('week3_bg/skeletons');
@@ -794,12 +795,14 @@ class PlayState extends MusicBeatState
 							bgSkeletons.animation.addByPrefix('idle', 'skeletons idle', 24, true);
 							bgSkeletons.animation.addByPrefix('danceLEFT', 'skeletons dance left', 24, false);
 							bgSkeletons.animation.addByPrefix('danceRIGHT', 'skeletons dance right', 24, false);
+							bgSkeletons.animation.addByPrefix('fear cutscene', 'skeletons cutscene fear', 24, false);
+							bgSkeletons.animation.addByPrefix('fear', 'skeletons fear', 24, false);
 							if (SONG.song.toLowerCase() == 'pelvic')
 							{
 								bgSkeletons.animation.play('rise');
 							} else if (SONG.song.toLowerCase() == 'spinal tap')
 							{
-								bgSkeletons.animation.play('idle');
+								bgSkeletons.animation.play('fear');
 							}
 							bgSkeletons.scrollFactor.set(0.9, 0.9);
 							add(bgSkeletons);
@@ -1043,10 +1046,10 @@ class PlayState extends MusicBeatState
 				dad.x += 160;
 				dad.y += 110;
 			case 'bones' | 'bones-spectral':
-				dad.x += 160;
+				dad.x += 200;
 				dad.y += 130;
 			case 'bones-cool':
-				dad.x += 160;
+				dad.x += 180;
 				dad.y += 110;
 			case 'harold' | 'harold-caffeinated':
 				dad.x += 200;
@@ -1330,14 +1333,16 @@ class PlayState extends MusicBeatState
 						xigIntroTwo(doof);
 					case 'marrow':
 						bonesIntro(doof);
-					// case 'pelvic':
-					// 	remove(dad);
-					// 	dad = new Character(100, 100, 'bones');
-					// 	add(dad);
-					// 	dad.x += 160;
-					// 	dad.y += 130;
-					// 	FlxTween.tween(dad, {color: 0x000000}, 0.1);
-					// 	startCountdown();
+					case 'spinal tap':
+						bonesIntroTwo(doof);
+					case 'pelvic':
+						remove(dad);
+						dad = new Character(100, 100, 'bones');
+						add(dad);
+						dad.x += 320;
+						dad.y += 260;
+						FlxTween.tween(dad, {color: 0x000000}, 0.1);
+						startCountdown();
 					case 'itch':
 						haroldIntroTwo(doof);
 					default:
@@ -1360,14 +1365,14 @@ class PlayState extends MusicBeatState
 								startCountdown();
 							}
 						});
-					// case 'pelvic':
-					// 	remove(dad);
-					// 	dad = new Character(100, 100, 'bones');
-					// 	add(dad);
-					// 	dad.x += 160;
-					// 	dad.y += 130;
-					// 	FlxTween.tween(dad, {color: 0x000000}, 0.1);
-					// 	startCountdown();
+					case 'pelvic':
+						remove(dad);
+						dad = new Character(100, 100, 'bones');
+						add(dad);
+						dad.x += 320;
+						dad.y += 260;
+						FlxTween.tween(dad, {color: 0x000000}, 0.1);
+						startCountdown();
 					default:
 						startCountdown();
 				}
@@ -1508,10 +1513,9 @@ class PlayState extends MusicBeatState
 	
 				var bonesIntro:FlxSprite = new FlxSprite(100, -100);
 				var cutsceneGrave:FlxSprite = new FlxSprite(100, -100);
-				var momIntro:FlxSprite = new FlxSprite(100, -100);
 				bonesIntro.frames = Paths.getSparrowAtlas('cutscenes/w2/bonesrise');
 				cutsceneGrave.frames = Paths.getSparrowAtlas('cutscenes/w2/grave');
-				bonesIntro.animation.addByPrefix('idle', 'xigcutscene instance ', 24, false);
+				bonesIntro.animation.addByPrefix('idle', 'xigcutscene', 24, false);
 				cutsceneGrave.animation.addByPrefix('idle', 'Symbol 1 instance ', 24, false);
 				add(cutsceneGrave);
 				cutsceneGrave.x += 500;
@@ -1530,9 +1534,10 @@ class PlayState extends MusicBeatState
 				FlxTween.tween(black, {alpha: 0}, 2.5, {
 					onComplete: function(twn:FlxTween)
 					{
-						new FlxTimer().start(4, function(swagTimer:FlxTimer)
+						FlxG.sound.play(Paths.sound('bones_rise'), 1, false, null, true);
+						new FlxTimer().start(5, function(swagTimer:FlxTimer)
 						{
-							camFollow.y += 400;
+							camFollow.y += 50;
 							add(bonesIntro);
 							bonesIntro.x += 600;
 							bonesIntro.y += 900;
@@ -1576,6 +1581,61 @@ class PlayState extends MusicBeatState
 				});
 			}
 
+		function bonesIntroTwo(?dialogueBox:DialogueBox):Void
+			{
+				remove(dad);
+	
+				var bonesFuck:FlxSprite = new FlxSprite(100, -100);
+				bonesFuck.frames = Paths.getSparrowAtlas('cutscenes/w2/spinaltap-intro-xig');
+				bonesFuck.animation.addByPrefix('idle', 'cutscene spinal tap FULL', 24, false);
+				add(bonesFuck);
+				bonesFuck.x += 100;
+				bonesFuck.y += 200;
+	
+				var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
+				black.scrollFactor.set();
+				add(black);
+	
+				camFollow.x += 400;
+				camFollow.y += 300;
+
+				bgSkeletons.animation.play('idle');
+				
+				inCutscene = true;
+				camHUD.visible = false;
+	
+				FlxTween.tween(black, {alpha: 0}, 2.5, {
+					onComplete: function(twn:FlxTween)
+					{
+						bonesFuck.animation.play('idle');
+						FlxG.sound.play(Paths.sound('bones_bonk'), 1, false, null, true);
+						new FlxTimer().start(0.7, function(swagTimer:FlxTimer)
+						{
+							bgSkeletons.animation.play("fear cutscene");
+						});
+						new FlxTimer().start(9, function(swagTimer:FlxTimer)
+						{
+							FlxTween.tween(black, {alpha: 1}, 0.2, {
+								onComplete: function(twn:FlxTween)
+								{
+									remove(bonesFuck);
+									add(dad);
+	
+									FlxTween.tween(black, {alpha: 0}, 0.2, {
+										onComplete: function(twn:FlxTween)
+										{
+											startCountdown();
+											camHUD.visible = true;
+											FlxG.camera.zoom = defaultCamZoom;
+										}
+									});
+								}
+							});
+						});
+					}
+				});
+			}
+	
 	function haroldIntroTwo(?dialogueBox:DialogueBox):Void
 		{
 			var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
@@ -1603,6 +1663,8 @@ class PlayState extends MusicBeatState
 								remove(dad);
 								dad = new Character(100, 100, 'harold-caffeinated');
 								add(dad);
+								dad.x += 200;
+								dad.y += 150;
 								dad.playAnim('idle');
 								FlxTween.tween(black, {alpha: 0}, 0.2, {
 									onComplete: function(twn:FlxTween)
@@ -1738,9 +1800,9 @@ class PlayState extends MusicBeatState
 
 		startTimer = new FlxTimer().start(Conductor.crochet / 1000, function(tmr:FlxTimer)
 		{
-			if(curSong == 'Annihilation-Lol' && curBeat < 55){
+			if((curSong == 'Annihilation-Lol' && curBeat < 55) || (curSong == 'Exclusion Zone' && ((curBeat <= 94 && curBeat >= 95) || (curBeat <= 224 && curBeat >= 231)))){
 				dad.dance();
-			} else if (curSong != 'Annihilation-Lol'){
+			} else if (curSong != 'Annihilation-Lol' && curSong != 'Exclusion Zone'){
 				dad.dance();
 			}
 			gf.dance();
@@ -2976,9 +3038,7 @@ class PlayState extends MusicBeatState
 											altAnim = '-hey';
 									}
 								}
-		
 							}
-	
 						switch (Math.abs(daNote.noteData))
 						{
 							case 2:
@@ -4102,9 +4162,9 @@ class PlayState extends MusicBeatState
 
 			// Dad doesnt interupt his own notes
 			if (SONG.notes[Math.floor(curStep / 16)].mustHitSection && dad.curCharacter != 'gf')
-				if(curSong == 'Annihilation-Lol' && curBeat < 55){
+				if((curSong == 'Annihilation-Lol' && curBeat < 55) || (curSong == 'Exclusion Zone' && ((curBeat <= 94 && curBeat >= 95) || (curBeat <= 224 && curBeat >= 231)))){
 					dad.dance();
-				} else if (curSong != 'Annihilation-Lol'){
+				} else if (curSong != 'Annihilation-Lol' && curSong != 'Exclusion Zone'){
 					dad.dance();
 				}
 		}
@@ -4142,9 +4202,9 @@ class PlayState extends MusicBeatState
 		
 		if (!dad.animation.curAnim.name.startsWith("sing"))
 		{
-			if(curSong == 'Annihilation-Lol' && curBeat < 55){
+			if((curSong == 'Annihilation-Lol' && curBeat < 55) || (curSong == 'Exclusion Zone' && ((curBeat <= 94 && curBeat >= 95) || (curBeat <= 224 && curBeat >= 231)))){
 				dad.dance();
-			} else if (curSong != 'Annihilation-Lol'){
+			} else if (curSong != 'Annihilation-Lol' && curSong != 'Exclusion Zone'){
 				dad.dance();
 			}
 		}
@@ -4168,31 +4228,61 @@ class PlayState extends MusicBeatState
 		{
 			switch(curStep)
 			{
+				case 252 | 1020:
+					//GF and BF cheers
+					vocals.volume = 1;
+					boyfriend.playAnim('hey', true);
+					gf.playAnim('cheer', true);
+
 				case 64:
+					//big flashy
 					bgSkeletons.animation.play('idle');
+					FlxG.camera.zoom = 1.2;
+					remove(dad);
+					var yellow:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.YELLOW);
+					yellow.scrollFactor.set();
+					add(yellow);
+					dad = new Character(100, 100, 'bones-cool');
+					dad.x += 320;
+					dad.y += 220;
+					add(dad);
+					iconP2.animation.play('bones-cool');
+					dad.playAnim('singUP');
+					FlxTween.tween(yellow, {alpha: 0}, 1, {
+						onComplete: function(twn:FlxTween)
+						{
+							FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, 0.5);
+						}
+					});
+					FlxG.log.add('FLIP');
+					
 
-				// case 52 | 56 | 60:
-				// 	FlxTween.color(dad, 0.0001, FlxColor.WHITE, FlxColor.BLACK);
-				// 	FlxG.log.add('FLOP');
+				case 50 | 52 | 54 | 56 | 58 | 60 | 62:
+					//record scratches
+					FlxTween.color(dad, 0.5, FlxColor.BLACK, FlxColor.WHITE);
+					FlxG.log.add('FLOP');
+					
+			}
+		}
 
-				// case 50 | 54:
-				// 	FlxTween.color(dad, 0.0001, FlxColor.BLACK, FlxColor.WHITE);
-				// 	FlxG.log.add('FLIP');
+		if (curSong == 'Exclusion Zone') 
+		{
+			switch(curStep)
+			{
+				case 376:
+					dad.playAnim("short swig");
+					new FlxTimer().start(0.8, function(tmr:FlxTimer)
+						{
+							remove(dad);
+							dad = new Character(100, 100, 'harold-caffeinated');
+							dad.x += 200;
+							dad.y += 150;
+							add(dad);
+							iconP2.animation.play('harold-caffeinated');
+						});
 
-				// case 58:
-				// 	remove(dad);
-				// 	dad = new Character(100, 100, 'bones-cool');
-				// 	add(dad);
-				// 	FlxTween.color(dad, 0.0001, FlxColor.BLACK, FlxColor.WHITE);
-				// 	dad.x += 160;
-				// 	dad.y += 110;
-				// 	FlxG.log.add('FLIP');
-
-				// case 62:
-				// 	FlxTween.color(dad, 0.0001, FlxColor.BLACK, FlxColor.WHITE);
-				// 	FlxG.camera.zoom = 1.5;
-				// 	dad.playAnim('singUP');
-				// 	FlxG.log.add('FLIP');
+				case 896:
+					dad.playAnim("swig");
 			}
 		}
 
@@ -4262,9 +4352,26 @@ class PlayState extends MusicBeatState
 					black.scrollFactor.set();
 					add(black);
 					add(dad);
+					FlxTween.tween(dad, {color: 0xFFFFFF}, 0.0000001);
 					inCutscene = true;
 					camHUD.visible = false;
 					dad.playAnim('xigdeath', true);
+			}
+		}
+
+		if (curSong == 'Annihilation')
+		{
+			switch (curBeat)
+			{
+				case 1:
+					if (storyDifficulty == 1 || storyDifficulty == 0)
+					{
+						health = 0;
+						new FlxTimer().start(2, function(swagTimer:FlxTimer)
+							{
+								FlxG.sound.play(Paths.sound('coward'), 1, false, null, true);
+							});
+					}
 			}
 		}
 
@@ -4381,6 +4488,13 @@ class PlayState extends MusicBeatState
 										bgSkeletons.animation.play('danceLEFT');
 								}
 						}
+
+						if (curSong == "Spinal Tap"){
+							if (curBeat % 2 == 0)
+							{
+								bgSkeletons.animation.play('fear');
+							}
+					}
 					}
 				}
 				

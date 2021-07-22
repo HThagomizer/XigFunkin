@@ -28,7 +28,7 @@ class StoryMenuState extends MusicBeatState
 		['Probed', 'Lazerz', 'Brainfuck', 'Annihilation-LOL'],
 		['Confidential', 'Hey', 'Shades'],
 		['Marrow', "Pelvic", "Spinal Tap"],
-		['Tinfoil', 'Itch']
+		['Tinfoil', 'Itch', "Exclusion Zone"]
 	];
 	var curDifficulty:Int = 1;
 

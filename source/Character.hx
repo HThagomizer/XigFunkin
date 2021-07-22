@@ -166,7 +166,7 @@ class Character extends FlxSprite
 				animation.addByIndices('hairFall', "GF Dancing Beat Hair Landing", [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "", 24, false);
 				animation.addByPrefix('scared', 'GF FEAR', 24);
 
-				addOffset('cheer');
+				addOffset('cheer', 0, 20);
 				addOffset('sad', -2, -2);
 				addOffset('danceLeft', 0, -9);
 				addOffset('danceRight', 0, -9);
@@ -741,6 +741,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'singLEFT', 24);
 				animation.addByPrefix('singDOWN-alt', 'ach', 24, false);
 				animation.addByPrefix('swig', 'swig', 24, false);
+				animation.addByPrefix('short swig', 'short swig', 24, false);
 	
 				addOffset('idle');
 				addOffset("singUP", -6, 50);
@@ -759,12 +760,22 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'twitchy singRIGHT', 24);
 				animation.addByPrefix('singDOWN', 'twitchy singDOWN', 24);
 				animation.addByPrefix('singLEFT', 'twitchy singLEFT', 24);
+				animation.addByPrefix('swig', 'twitchy swig', 24, false);
+				animation.addByPrefix('singUP-alt', 'alt twitchy singUP', 24, false);
+				animation.addByPrefix('singDOWN-alt', 'alt twitchy singDOWN', 24, false);
+				animation.addByPrefix('singLEFT-alt', 'alt twitchy singLEFT', 24, false);
+				animation.addByPrefix('singRIGHT-alt', 'alt twitchy singRIGHT', 24, false);
 	
 				addOffset('idle');
 				addOffset("singUP", 14, 40);
 				addOffset("singRIGHT", -5, -23);
 				addOffset("singLEFT", 39, -7);
 				addOffset("singDOWN", 26, -22);
+				addOffset("singUP-alt", 14, 40);
+				addOffset("singRIGHT-alt", -5, -23);
+				addOffset("singLEFT-alt", 39, -7);
+				addOffset("singDOWN-alt", 26, -22);
+				addOffset('swig', 2, 5);
 	
 				playAnim('idle');
 			case 'FBI':
