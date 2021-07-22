@@ -1,1 +1,14 @@
-Tutorial
+Tutorial:gf:1
+Probed:alien:1
+Lazerz:alien:1
+Brainfuck:alien-pissed:1
+Confidential:FBI:2
+Hey:FBI:2
+Shades:FBI:2
+Marrow:bones:3
+Pelvic:bones-cool:3
+Spinal Tap:bones:3
+Tinfoil:harold:4
+Itch:harold:4
+Exclusion Zone:harold:4
+Annihilation:alien-psychic:1

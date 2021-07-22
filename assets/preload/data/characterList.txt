@@ -19,3 +19,10 @@ alien
 alien-alt
 alien-pissed
 alien-psychic
+bones
+bones-cool
+bones-spectral
+harold
+harold-caffeinated
+FBI
+bf-hominid
