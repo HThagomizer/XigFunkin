@@ -1597,7 +1597,7 @@ class PlayState extends MusicBeatState
 				add(black);
 	
 				camFollow.x += 400;
-				camFollow.y += 300;
+				camFollow.y += 250;
 
 				bgSkeletons.animation.play('idle');
 				
@@ -1654,6 +1654,7 @@ class PlayState extends MusicBeatState
 			FlxTween.tween(black, {alpha: 0}, 1, {
 				onComplete: function(twn:FlxTween)
 				{
+					FlxG.sound.play(Paths.sound('drinka_boy'), 1, false, null, true);
 					dad.playAnim('swig');
 					new FlxTimer().start(3, function(swagTimer:FlxTimer)
 					{
@@ -4367,7 +4368,7 @@ class PlayState extends MusicBeatState
 					if (storyDifficulty == 1 || storyDifficulty == 0)
 					{
 						health = 0;
-						new FlxTimer().start(2, function(swagTimer:FlxTimer)
+						new FlxTimer().start(1, function(swagTimer:FlxTimer)
 							{
 								FlxG.sound.play(Paths.sound('coward'), 1, false, null, true);
 							});

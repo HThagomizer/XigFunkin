@@ -614,15 +614,15 @@
 	<SubTexture name="swig0014" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0015" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0016" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0017" x="7179" y="658" width="332" height="630" frameX="-6" frameY="0" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0018" x="7511" y="658" width="332" height="604" frameX="-6" frameY="-24" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0017" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0018" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0019" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0020" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0021" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0022" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0023" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0024" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0025" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0024" x="7179" y="658" width="332" height="630" frameX="-6" frameY="0" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0025" x="7511" y="658" width="332" height="604" frameX="-6" frameY="-24" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0026" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0027" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0028" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
@@ -633,8 +633,8 @@
 	<SubTexture name="swig0033" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0034" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0035" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0036" x="7843" y="658" width="332" height="629" frameX="-6" frameY="0" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0037" x="0" y="1328" width="332" height="605" frameX="-6" frameY="-23" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0036" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0037" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0038" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0039" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0040" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
@@ -645,8 +645,8 @@
 	<SubTexture name="swig0045" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0046" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0047" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0048" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0049" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0048" x="7843" y="658" width="332" height="629" frameX="-6" frameY="0" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0049" x="0" y="1328" width="332" height="605" frameX="-6" frameY="-23" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0050" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0051" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0052" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
@@ -655,19 +655,33 @@
 	<SubTexture name="swig0055" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0056" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="swig0057" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0058" x="2780" y="658" width="404" height="626" frameX="-1" frameY="-3" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0059" x="3184" y="658" width="393" height="625" frameX="0" frameY="-4" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0060" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0061" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0062" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0063" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0064" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0065" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0066" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0067" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0068" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0069" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
-	<SubTexture name="swig0070" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0058" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0059" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0060" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0061" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0062" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0063" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0064" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0065" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0066" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0067" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0068" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0069" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0070" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0071" x="2448" y="658" width="332" height="615" frameX="-6" frameY="-14" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0072" x="2780" y="658" width="404" height="626" frameX="-1" frameY="-3" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0073" x="3184" y="658" width="393" height="625" frameX="0" frameY="-4" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0074" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0075" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0076" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0077" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0078" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0079" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0080" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0081" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0082" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0083" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
+	<SubTexture name="swig0084" x="3577" y="658" width="389" height="622" frameX="-3" frameY="-7" frameWidth="405" frameHeight="630"/>
 	<SubTexture name="twitchy idle0000" x="332" y="1328" width="373" height="613" frameX="0" frameY="-5" frameWidth="377" frameHeight="618"/>
 	<SubTexture name="twitchy idle0001" x="705" y="1328" width="369" height="605" frameX="0" frameY="-13" frameWidth="377" frameHeight="618"/>
 	<SubTexture name="twitchy idle0002" x="1074" y="1328" width="374" height="600" frameX="0" frameY="-17" frameWidth="377" frameHeight="618"/>
