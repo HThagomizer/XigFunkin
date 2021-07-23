@@ -12,6 +12,7 @@ class HealthIcon extends FlxSprite
 	public function new(char:String = 'bf', isPlayer:Bool = false)
 	{
 		super();
+		
 		loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 
 		antialiasing = true;
@@ -19,6 +20,7 @@ class HealthIcon extends FlxSprite
 		animation.add('bf-car', [0, 1], 0, false, isPlayer);
 		animation.add('bf-christmas', [0, 1], 0, false, isPlayer);
 		animation.add('bf-pixel', [21, 21], 0, false, isPlayer);
+		animation.add('bf-hominid', [0, 1], 0, false, isPlayer);
 		animation.add('spooky', [2, 3], 0, false, isPlayer);
 		animation.add('pico', [4, 5], 0, false, isPlayer);
 		animation.add('mom', [6, 7], 0, false, isPlayer);
@@ -31,14 +33,29 @@ class HealthIcon extends FlxSprite
 		animation.add('spirit', [23, 23], 0, false, isPlayer);
 		animation.add('bf-old', [14, 15], 0, false, isPlayer);
 		animation.add('gf', [16], 0, false, isPlayer);
-		animation.add('parents-christmas', [17], 0, false, isPlayer);
+		animation.add('gf-christmas', [16], 0, false, isPlayer);
+		animation.add('gf-pixel', [16], 0, false, isPlayer);
+		animation.add('parents-christmas', [17, 18], 0, false, isPlayer);
 		animation.add('monster', [19, 20], 0, false, isPlayer);
 		animation.add('monster-christmas', [19, 20], 0, false, isPlayer);
 		animation.add('alien', [24, 25], 0, false, isPlayer);
 		animation.add('alien-alt', [24, 25], 0, false, isPlayer);
 		animation.add('alien-pissed', [26, 27], 0, false, isPlayer);
 		animation.add('alien-psychic', [26, 27], 0, false, isPlayer);
+		animation.add('bones', [10, 11], 0, false, isPlayer);
+		animation.add('bones-cool', [10, 11], 0, false, isPlayer);
+		animation.add('bones-spectral', [10, 11], 0, false, isPlayer);
+		animation.add('harold', [28, 29], 0, false, isPlayer);
+		animation.add('harold-caffeinated', [32, 33], 0, false, isPlayer);
+		animation.add('FBI', [30, 31], 0, false, isPlayer);
 		animation.play(char);
+
+		switch(char)
+		{
+			case 'bf-pixel' | 'senpai' | 'senpai-angry' | 'spirit' | 'gf-pixel':
+				antialiasing = false;
+		}
+
 		scrollFactor.set();
 	}
 
